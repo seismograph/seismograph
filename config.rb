@@ -29,7 +29,8 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
-activate :directory_indexes
+activate :relative_assets
+set :relative_links, true
 
 page "/feed.xml", layout: false
 

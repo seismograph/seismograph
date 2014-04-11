@@ -13,10 +13,9 @@
       <%= yield %>
     </div>
     
-    <script src="/js/d3.min.js" charset="utf-8"></script>
     <% if current_page.data.scripts %>
       <% current_page.data.scripts.each do |f| %>
-        <script src="/js/<%= f %>"></script>
+        <script src="js/<%= f %>"></script>
       <% end %>
     <% end %>
   </body>

@@ -2,23 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Blog Name</title>
   <subtitle>Blog subtitle</subtitle>
-  <id>http://blog.url.com/</id>
-  <link href="http://blog.url.com/"/>
+  <id>http://blog.url.com/seismograph</id>
+  <link href="http://blog.url.com/seismograph"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-04-09T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
-  <entry>
-    <title>Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/example.html"/>
-    <id>http://blog.url.com/example.html</id>
-    <published>2014-04-09T00:00:00Z</published>
-    <updated>2014-04-10T20:28:18-07:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;div id="canvas"&gt;&lt;/div&gt;
-</content>
-  </entry>
 </feed>

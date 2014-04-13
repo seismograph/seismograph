@@ -1,10 +1,1 @@
-/* line 1, ../css/style.scss */
-body {
-  margin: 0;
-  padding: 0;
-  background: white url("../images/bg.png") repeat 0 0; }
-
-/* line 7, ../css/style.scss */
-#main {
-  width: 80%;
-  margin: 0 auto; }
+body{margin:0;padding:0;background:#fff url("../images/bg.png") repeat 0 0}#main{width:80%;margin:0 auto}

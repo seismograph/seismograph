@@ -14,11 +14,14 @@
     <link rel="alternate" href="http://blog.url.com/example.html"/>
     <id>http://blog.url.com/example.html</id>
     <published>2014-04-09T00:00:00Z</published>
-    <updated>2014-04-10T20:28:18-07:00</updated>
+    <updated>2014-04-12T21:18:53-07:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;div id="canvas"&gt;&lt;/div&gt;
+    <content type="html">&lt;div class="canvas" id="example"&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;This text is below the fold&lt;/p&gt;
+
 </content>
   </entry>
 </feed>

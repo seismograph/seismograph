@@ -10,3 +10,7 @@ gem "builder", "~> 3.0"
 
 # gh-pages plugin
 gem "middleman-gh-pages"
+
+# js files:
+#gem "js/d3", :require => false
+#gem "js/example", :require => false

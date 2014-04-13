@@ -6,6 +6,11 @@
     <title>Seismograph <%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    <% if current_page.data.css %>
+      <% current_page.data.css.each do |f| %>
+        <link href="css/<%= f %>" type="text/css" rel="stylesheet">
+      <% end %>
+    <% end %>
   </head>
   <body>
     
@@ -13,10 +18,7 @@
       <%= yield %>
     </div>
     
-    <% if current_page.data.scripts %>
-      <% current_page.data.scripts.each do |f| %>
-        <script src="js/<%= f %>"></script>
-      <% end %>
-    <% end %>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/vizlibrary.js"></script>
   </body>
 </html>

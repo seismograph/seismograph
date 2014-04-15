@@ -18,3 +18,9 @@
     &:hover { color: $hover; }
   }
 }
+
+@mixin responsive($width) {
+  @media only screen and (max-width: $width) {
+    @content;
+  }
+}

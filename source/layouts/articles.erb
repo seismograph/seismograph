@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <title>Seismograph <%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <% if current_page.data.css %>
+      <% current_page.data.css.each do |f| %>
+        <link href="css/<%= f %>" type="text/css" rel="stylesheet">
+      <% end %>
+    <% end %>
+  </head>
+  <body>
+    <header>
+      <div class="left clearfix">
+        <div class="logo"></div>
+        <h1><a href="/seismograph/">Seismograph</a></h1>
+      </div>
+      <div class="right clearfix">
+        <ul>
+          <li><a href="#">Stories</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Connect</a></li>
+        </ul>
+      </div>
+    </header>
+    <div id="main" role="main">
+      <article>
+        <% if current_page.data.title %>
+          <h2><%= current_page.data.title %></h2>
+        <% end %>
+        <%= yield %>
+      </article>
+    </div>
+    <footer></footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/vizlibrary.js"></script>
+  </body>
+</html>

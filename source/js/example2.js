@@ -1,7 +1,7 @@
 var VIZ = (function(v) {
   v.example2 = function() {
     var dataset = [5, 10, 14, 37, 20, 48, 16, 37, 12, 28],
-        w = 800, h = 400, pad = 20, xScale = 0,
+        w = $('#example2').width(), h = 400, xScale = 0, ryVal = 0,
         total = (function() {
           var result = 0;
           for (var i = 0; i < dataset.length; i++) {
@@ -30,14 +30,14 @@ var VIZ = (function(v) {
               },
               cy: h/2,
               r: function(d) {
-                return rRange(d) - ((rRange(d) / 10) / 2) - 1;
+                return rRange(d) - rRange(d) * 0.07;
               },
               fill: 'yellow',
               stroke: 'orange',
               'stroke-width': function(d) {
-                return rRange(d) / 10;
+                return rRange(d) * 0.1;
               }
            });
-  };
+  }
   return v;
 }(VIZ || {}));

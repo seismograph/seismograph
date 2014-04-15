@@ -29,6 +29,8 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
+page "/articles/*", :layout => "articles"
+
 activate :relative_assets
 set :relative_links, true
 

@@ -7,7 +7,9 @@ css:
  - example.css
 ---
 <p>Kitsch Neutra cred, Cosby sweater Portland VHS Etsy try-hard farm-to-table ennui forage Pinterest authentic. Wolf bicycle rights artisan tattooed try-hard. Intelligentsia gastropub pickled blog Helvetica art party, dreamcatcher Echo Park letterpress keffiyeh deep v readymade beard. You probably haven't heard of them meh American Apparel, PBR&B trust fund art party plaid roof party vegan small batch mlkshk Schlitz whatever squid bitters.</p>
-<div class="canvas" id="example2"></div>
+<div class="canvasWrap">
+	<div class="canvas" id="example2"></div>
+</div>
 END_SUMMARY
 <p>Polaroid fixie gentrify jean shorts. IPhone wayfarers kogi, fanny pack chambray cred fap master cleanse pour-over tofu. Skateboard actually letterpress fap Echo Park chillwave.</p>
 

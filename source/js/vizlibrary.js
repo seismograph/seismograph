@@ -1,6 +1,8 @@
 //= require 'd3.min'
+//= require 'leaflet'
 //= require 'example'
 //= require 'example2'
+//= require 'sf-bicycle-theft'
 
 if (typeof VIZ === 'object') {
 	(function($, v) {

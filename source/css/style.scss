@@ -1,6 +1,7 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 @import 'normalize.css';
+@import 'leaflet.css';
 @import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700');
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700');
 
@@ -89,7 +90,7 @@ header {
 		}
 	}
 
-	p {
+	p, li {
 		font-size: 1.5em;
 		line-height: 1.7;
 
@@ -106,8 +107,36 @@ header {
 
 		@include textLink($dark, $lightBlue);
 	}
+	
+	.canvasWrap {
+		width: 100%;
+		height: 400px;
+		overflow: hidden;
+		position: relative;
 
-	.canvas { text-align: center; }
+		.canvas { 
+			position: relative;
+			bottom: 0;
+			text-align: center; 
+		}
+	}
+
+	.mapWrap {
+		height: auto;
+		margin-top: 20px;
+		border: 2px solid #333;
+		#sfBicycleTheft {
+			cursor: pointer;
+			&:active { cursor: grab; }
+
+			path {
+			  stroke: #fff;
+			  stroke-width: 0.5px;
+			  fill: rgb(222,45,38);
+			  &:hover { stroke: #000; }
+			}
+		}
+	}
 }
 
 /* ==========================================================================

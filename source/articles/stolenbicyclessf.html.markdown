@@ -19,7 +19,7 @@ The trends are somewhat as expected. Market Street between 6th and 4th, the Ferr
 
 One of the more confusing things about this project was that, when I originally dropped the data on to the map, it looked like this:
 
-<div class="imgWrap"><img src="../images/bike-theft-orig.png" width="74%" height="auto"/></div>
+<div class="imgWrap"><img src="/images/bike-theft-orig.png" width="74%" height="auto"/></div>
 
 It appeared as if dozens of bikes had been stolen from 850 Bryant Street, which didn't make any sense. I then realized that 850 Bryant Street is actually the address of the main SFPD station, which leads me to believe that none of the bikes were actually stolen in that location but, instead, location information just wasn't available for that specific incident and the coordinates of the station were provide as a substitute. Thus, I removed those points from the map.
 

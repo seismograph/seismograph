@@ -6,7 +6,7 @@ tags: bicycle, San Francisco, map, leaflet, neighborhood, crime
 css: 
  - bicycle-sf.css
 ---
-This map shows every reported bicycle theft in San Francisco in 2013. Each circle represents one theft. Concentric circles mark where multiple bicycles were stolen in one location. The map is built using <a href="https://data.sfgov.org/Public-Safety/SFPD-Incidents-2013/n4e2-etve">SFPD data</a>, <a href="http://mapbox.com">Mapbox</a> tiles and the <a href="http://leafletjs.com">Leaflet</a> JavaScript API.
+This map shows every reported bicycle theft in San Francisco in 2013. Each circle represents one theft. Concentric circles mark where multiple bicycles were stolen in one location. The map is built using <a href="https://data.sfgov.org/Public-Safety/SFPD-Incidents-2013/n4e2-etve">SFPD data</a>, <a href="http://mapbox.com">Mapbox</a> tiles, <a href="d3js.org">D3</a> and the <a href="http://leafletjs.com">Leaflet</a> JavaScript API.
 
 <span style="text-decoration: underline;">Total # of bicycles reported stolen: 813</span>
 

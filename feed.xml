@@ -5,21 +5,58 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-04-13T00:00:00Z</updated>
+  <updated>2014-05-24T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Where Your Bicycle Is Most Likely To Get Stolen In San Francisco</title>
+    <link rel="alternate" href="http://blog.url.com/stolen-bicycle-map-sf.html"/>
+    <id>http://blog.url.com/stolen-bicycle-map-sf.html</id>
+    <published>2014-05-24T00:00:00Z</published>
+    <updated>2014-05-27T20:28:08-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This map shows every reported bicycle theft in San Francisco in 2013. Each circle represents one theft. Concentric circles mark where multiple bicycles were stolen in one location. The map is built using &lt;a href="https://data.sfgov.org/Public-Safety/SFPD-Incidents-2013/n4e2-etve"&gt;SFPD data&lt;/a&gt;, &lt;a href="http://mapbox.com"&gt;Mapbox&lt;/a&gt; tiles and the &lt;a href="http://leafletjs.com"&gt;Leaflet&lt;/a&gt; JavaScript API.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Total # of bicycles reported stolen: 813&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class="mapWrap"&gt;
+	&lt;div class="canvas" id="sfBicycleTheft"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;The trends are somewhat as expected. Market Street between 6th and 4th, the Ferry Building, CCSF, 16th and Mission BART and the general hospital are all popular spots for bike theft. Nonetheless, I still found the dataset interesting.&lt;/p&gt;
+
+&lt;p&gt;One of the more confusing things about this project was that, when I originally dropped the data on to the map, it looked like this:&lt;/p&gt;
+
+&lt;div class="imgWrap"&gt;&lt;img src="../images/bike-theft-orig.png" width="74%" height="auto" /&gt;&lt;/div&gt;
+
+&lt;p&gt;It appeared as if dozens of bikes had been stolen from 850 Bryant Street, which didn't make any sense. I then realized that 850 Bryant Street is actually the address of the main SFPD station, which leads me to believe that none of the bikes were actually stolen in that location but, instead, location information just wasn't available for that specific incident and the coordinates of the station were provide as a substitute. Thus, I removed those points from the map.&lt;/p&gt;
+
+&lt;p&gt;A couple of tutorials were really helpful in building this project: &lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href="http://leafletjs.com/examples/quick-start.html"&gt;The Leaflet quick start guide&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://bost.ocks.org/mike/leaflet/"&gt;Mike Bostock's tutorial for layering D3 atop Leaflet&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://bost.ocks.org/mike/bubble-map/"&gt;The 'Let's Make A Bubble Map' tutorial by Mike Bostock&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Second Example Article</title>
     <link rel="alternate" href="http://blog.url.com/example2.html"/>
     <id>http://blog.url.com/example2.html</id>
     <published>2014-04-13T00:00:00Z</published>
-    <updated>2014-04-14T21:57:38-07:00</updated>
+    <updated>2014-04-15T21:41:41-07:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;Kitsch Neutra cred, Cosby sweater Portland VHS Etsy try-hard farm-to-table ennui forage Pinterest authentic. Wolf bicycle rights artisan tattooed try-hard. Intelligentsia gastropub pickled blog Helvetica art party, dreamcatcher Echo Park letterpress keffiyeh deep v readymade beard. You probably haven't heard of them meh American Apparel, PBR&amp;amp;B trust fund art party plaid roof party vegan small batch mlkshk Schlitz whatever squid bitters.&lt;/p&gt;
-&lt;div class="canvas" id="example2"&gt;&lt;/div&gt;
+&lt;div class="canvasWrap"&gt;
+	&lt;div class="canvas" id="example2"&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Polaroid fixie gentrify jean shorts. IPhone wayfarers kogi, fanny pack chambray cred fap master cleanse pour-over tofu. Skateboard actually letterpress fap Echo Park chillwave.&lt;/p&gt;
 

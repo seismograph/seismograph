@@ -12,7 +12,7 @@ var VIZ = (function(v) {
         svg = d3.select(map.getPanes().overlayPane).append("svg"),
         g = svg.append("g").attr("class", "leaflet-zoom-hide");
 
-    d3.json('/data/sf-bike-theft/bike-crime-geo.json', function(error, data) {
+    d3.json('../data/sf-bike-theft/bike-crime-geo.json', function(error, data) {
       if (error) return console.warn(error);
 
       prepDataset(data.features);

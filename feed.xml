@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/stolen-bicycle-map-sf.html"/>
     <id>http://blog.url.com/stolen-bicycle-map-sf.html</id>
     <published>2014-05-24T00:00:00Z</published>
-    <updated>2014-05-27T20:28:08-07:00</updated>
+    <updated>2014-05-27T20:40:06-07:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -31,7 +31,7 @@
 
 &lt;p&gt;One of the more confusing things about this project was that, when I originally dropped the data on to the map, it looked like this:&lt;/p&gt;
 
-&lt;div class="imgWrap"&gt;&lt;img src="../images/bike-theft-orig.png" width="74%" height="auto" /&gt;&lt;/div&gt;
+&lt;div class="imgWrap"&gt;&lt;img src="/images/bike-theft-orig.png" width="74%" height="auto" /&gt;&lt;/div&gt;
 
 &lt;p&gt;It appeared as if dozens of bikes had been stolen from 850 Bryant Street, which didn't make any sense. I then realized that 850 Bryant Street is actually the address of the main SFPD station, which leads me to believe that none of the bikes were actually stolen in that location but, instead, location information just wasn't available for that specific incident and the coordinates of the station were provide as a substitute. Thus, I removed those points from the map.&lt;/p&gt;
 

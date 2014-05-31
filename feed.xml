@@ -14,13 +14,13 @@
     <link rel="alternate" href="http://blog.url.com/stolen-bicycle-map-sf.html"/>
     <id>http://blog.url.com/stolen-bicycle-map-sf.html</id>
     <published>2014-05-24T00:00:00Z</published>
-    <updated>2014-05-27T21:00:21-07:00</updated>
+    <updated>2014-05-30T22:02:47-07:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;This map shows every reported bicycle theft in San Francisco in 2013. Each circle represents one theft. Concentric circles mark where multiple bicycles were stolen in one location. The map is built using &lt;a href="https://data.sfgov.org/Public-Safety/SFPD-Incidents-2013/n4e2-etve"&gt;SFPD data&lt;/a&gt;, &lt;a href="http://mapbox.com"&gt;Mapbox&lt;/a&gt; tiles, &lt;a href="d3js.org"&gt;D3&lt;/a&gt; and the &lt;a href="http://leafletjs.com"&gt;Leaflet&lt;/a&gt; JavaScript API.&lt;/p&gt;
 
-&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Total # of bicycles reported stolen: 813&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Total # of bicycles reported stolen: &lt;strong&gt;813&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class="mapWrap"&gt;
 	&lt;div class="canvas" id="sfBicycleTheft"&gt;&lt;/div&gt;
@@ -28,6 +28,10 @@
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;The trends are somewhat as expected. Market Street between 6th and 4th, the Ferry Building, CCSF, 16th and Mission BART and the general hospital are all popular spots for bike theft. Nonetheless, I still found the dataset interesting.&lt;/p&gt;
+
+&lt;p&gt;And just for the hell of it, given the reported data, here's what time your bike is most likely to be stolen (this, of course, is based soley on the victims's statments):&lt;/p&gt;
+
+&lt;div class="canvas" id="timeStolen"&gt;&lt;/div&gt;
 
 &lt;p&gt;One of the more confusing things about this project was that, when I originally dropped the data on to the map, it looked like this:&lt;/p&gt;
 
@@ -41,43 +45,6 @@
 	&lt;li&gt;&lt;a href="http://bost.ocks.org/mike/leaflet/"&gt;Mike Bostock's tutorial for layering D3 atop Leaflet&lt;/a&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;a href="http://bost.ocks.org/mike/bubble-map/"&gt;The 'Let's Make A Bubble Map' tutorial by Mike Bostock&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Second Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/example2.html"/>
-    <id>http://blog.url.com/example2.html</id>
-    <published>2014-04-13T00:00:00Z</published>
-    <updated>2014-04-15T21:41:41-07:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Kitsch Neutra cred, Cosby sweater Portland VHS Etsy try-hard farm-to-table ennui forage Pinterest authentic. Wolf bicycle rights artisan tattooed try-hard. Intelligentsia gastropub pickled blog Helvetica art party, dreamcatcher Echo Park letterpress keffiyeh deep v readymade beard. You probably haven't heard of them meh American Apparel, PBR&amp;amp;B trust fund art party plaid roof party vegan small batch mlkshk Schlitz whatever squid bitters.&lt;/p&gt;
-&lt;div class="canvasWrap"&gt;
-	&lt;div class="canvas" id="example2"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Polaroid fixie gentrify jean shorts. IPhone wayfarers kogi, fanny pack chambray cred fap master cleanse pour-over tofu. Skateboard actually letterpress fap Echo Park chillwave.&lt;/p&gt;
-
-&lt;p&gt;Jean shorts butcher salvia, beard aesthetic vegan ethical 90's cardigan selfies. Direct trade deep v wolf, dreamcatcher literally scenester XOXO. Letterpress craft beer VHS hashtag actually sustainable, tousled pour-over Bushwick ennui bicycle rights. Umami fap mumblecore, single-origin coffee actually American Apparel synth organic craft beer PBR. Carles normcore biodiesel tattooed Marfa Vice. Asymmetrical butcher readymade, chia keytar ethical artisan lo-fi wayfarers direct trade small batch forage cornhole DIY. Sustainable keytar butcher, +1 kale chips Godard you probably haven't heard of them whatever tousled.&lt;/p&gt;
-
-&lt;p&gt;Pitchfork dreamcatcher fixie put a bird on it occupy, drinking vinegar synth PBR&amp;amp;B ennui readymade Bushwick Tumblr typewriter XOXO. Chillwave Tumblr craft beer umami, mlkshk hashtag chambray post-ironic raw denim viral cornhole butcher kogi keytar meggings. Schlitz next level XOXO, Pinterest slow-carb organic ennui direct trade sriracha fixie post-ironic Echo Park try-hard. Ethical DIY mustache organic Tumblr. Brooklyn scenester Neutra chambray Tumblr. Drinking vinegar jean shorts High Life ugh, aesthetic Shoreditch sartorial banh mi keytar dreamcatcher fashion axe forage Truffaut chambray. Brunch banjo kitsch Thundercats.&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/example.html"/>
-    <id>http://blog.url.com/example.html</id>
-    <published>2014-04-09T00:00:00Z</published>
-    <updated>2014-04-12T21:18:53-07:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;div class="canvas" id="example"&gt;&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;This text is below the fold&lt;/p&gt;
 
 </content>
   </entry>

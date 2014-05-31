@@ -7,10 +7,6 @@
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link href="css/style.css" type="text/css" rel="stylesheet">
     
-      
-        <link href="css/bicycle-sf.css" type="text/css" rel="stylesheet">
-      
-    
   </head>
   <body>
     <header>
@@ -20,9 +16,9 @@
       </div>
       <div class="right clearfix">
         <ul>
-          <li><a href="#">Stories</a></li>
+          <!-- <li><a href="#">Stories</a></li>
+          <li><a href="#">Connect</a></li> -->
           <li><a href="#">About</a></li>
-          <li><a href="#">Connect</a></li>
         </ul>
       </div>
     </header>
@@ -33,7 +29,7 @@
         
         <p>This map shows every reported bicycle theft in San Francisco in 2013. Each circle represents one theft. Concentric circles mark where multiple bicycles were stolen in one location. The map is built using <a href="https://data.sfgov.org/Public-Safety/SFPD-Incidents-2013/n4e2-etve">SFPD data</a>, <a href="http://mapbox.com">Mapbox</a> tiles, <a href="d3js.org">D3</a> and the <a href="http://leafletjs.com">Leaflet</a> JavaScript API.</p>
 
-<p><span style="text-decoration: underline;">Total # of bicycles reported stolen: 813</span></p>
+<p>Total # of bicycles reported stolen: <strong>813</strong></p>
 
 <div class="mapWrap">
 	<div class="canvas" id="sfBicycleTheft"></div>
@@ -41,6 +37,10 @@
 <p></p>
 
 <p>The trends are somewhat as expected. Market Street between 6th and 4th, the Ferry Building, CCSF, 16th and Mission BART and the general hospital are all popular spots for bike theft. Nonetheless, I still found the dataset interesting.</p>
+
+<p>And just for the hell of it, given the reported data, here's what time your bike is most likely to be stolen (this, of course, is based soley on the victims's statments):</p>
+
+<div class="canvas" id="timeStolen"></div>
 
 <p>One of the more confusing things about this project was that, when I originally dropped the data on to the map, it looked like this:</p>
 

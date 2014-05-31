@@ -6,9 +6,9 @@ tags: about, Seismograph
 ---
 To be honest, we're not entirely sure what Seismograph is yet.
 
-We do know that we've got a desire to build thought-provoking visualizations that tell good stories about real data and that we needed a place to put them.
+We <em>do</em> know that we've got a desire to build thought-provoking visualizations and that we needed a place to put them.
 
-We're seeking to create content that teaches us about ourselves.
+We're seeking to tell great stories built on real data &mdash; creating content that teaches us about ourselves.
 
 END_SUMMARY
 

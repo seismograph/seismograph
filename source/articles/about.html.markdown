@@ -10,6 +10,6 @@ We <em>do</em> know that we've got a desire to build thought-provoking visualiza
 
 We're seeking to tell great stories built on real data &mdash; creating content that teaches us about ourselves.
 
-END_SUMMARY
-
 ~ Luke
+
+END_SUMMARY

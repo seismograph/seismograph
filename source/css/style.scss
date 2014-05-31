@@ -65,7 +65,7 @@ header {
 
 			li {
 				float: left;
-				margin: 10px 38px 0 0;
+				margin: 10px 50px 0 0; // was 10px 38px 0 0 w/ three links
 				font-size: 2em;
 
 				@include textLink($lightBlue, $dark);
@@ -137,6 +137,36 @@ header {
 			}
 		}
 	}
+
+	#timeStolen {
+		margin: 25px auto 35px;
+		rect {
+			fill: #df2f28;
+		}
+		.axis path,
+		.axis line {
+			fill: none;
+			stroke: #2ba3d4;
+			shape-rendering: crispEdges;
+		}
+		
+		.axis text {
+			font-family: sans-serif;
+			font-size: 11px;
+		}
+	}
+
+	.imgWrap {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+footer {
+	width: 40%;
+	height: 100px;
+	margin: 50px auto 0;
+	border-top: 1px solid #ccc;
 }
 
 /* ==========================================================================

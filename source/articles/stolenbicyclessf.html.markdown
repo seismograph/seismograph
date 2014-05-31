@@ -3,12 +3,10 @@ title: Where Your Bicycle Is Most Likely To Get Stolen In San Francisco
 slug: stolen-bicycle-map-sf
 date: 2014-05-24
 tags: bicycle, San Francisco, map, leaflet, neighborhood, crime
-css: 
- - bicycle-sf.css
 ---
 This map shows every reported bicycle theft in San Francisco in 2013. Each circle represents one theft. Concentric circles mark where multiple bicycles were stolen in one location. The map is built using <a href="https://data.sfgov.org/Public-Safety/SFPD-Incidents-2013/n4e2-etve">SFPD data</a>, <a href="http://mapbox.com">Mapbox</a> tiles, <a href="d3js.org">D3</a> and the <a href="http://leafletjs.com">Leaflet</a> JavaScript API.
 
-<span style="text-decoration: underline;">Total # of bicycles reported stolen: 813</span>
+Total # of bicycles reported stolen: **813**
 
 <div class="mapWrap">
 	<div class="canvas" id="sfBicycleTheft"></div>
@@ -16,6 +14,10 @@ This map shows every reported bicycle theft in San Francisco in 2013. Each circl
 END_SUMMARY
 
 The trends are somewhat as expected. Market Street between 6th and 4th, the Ferry Building, CCSF, 16th and Mission BART and the general hospital are all popular spots for bike theft. Nonetheless, I still found the dataset interesting.
+
+And just for the hell of it, given the reported data, here's what time your bike is most likely to be stolen (this, of course, is based soley on the victims's statments):
+
+<div class="canvas" id="timeStolen"></div>
 
 One of the more confusing things about this project was that, when I originally dropped the data on to the map, it looked like this:
 

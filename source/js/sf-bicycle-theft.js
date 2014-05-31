@@ -27,7 +27,8 @@ var VIZ = (function(v) {
                       .enter().append('path');
 
       map.on("viewreset", reset);
-      reset();                    
+      reset();
+      timeStolen(data.features);                    
 
       function prepDataset(arr) {
         var i = 0, max = arr.length, obj = {};
@@ -95,6 +96,68 @@ var VIZ = (function(v) {
                 + '\nDate: ' + formatDate(d.properties.date) + ', ' + formatTime(d.properties.time)
                 + '\nAddress: ' + formatString(d.properties.address);
           });
+      }
+
+      function timeStolen(data) {
+        var h = 200,
+            svg = d3.select('#timeStolen')
+                      .append('svg')
+                      .attr({
+                        width: w,
+                        height: h
+                      }),
+            tArray = (function() {
+              var i = 0, max = data.length, result = [];
+              for (; i < max; i++) {
+                var time = data[i].properties.time.trim(),
+                    time = parseInt(time.slice(0, time.indexOf(':')));
+
+                (result[time]) ? result[time] += 1 : result[time] = 1;
+              }
+              return result;
+            }()),
+            clock = '12am,1am,2am,3am,4am,5am,6am,7am,8am,9am,10am,11am,12pm,1pm,2pm,3pm,4pm,5pm,6pm,7pm,8pm,9pm,10pm,11pm'.split(',');
+            max = d3.max(tArray),
+            yRange = d3.scale.linear()
+                        .domain([0, max])
+                        .range([0, h - 30]),
+            oRange = d3.scale.linear()
+                        .domain([0, max])
+                        .range([0.4,1]),
+            bWidth = w / tArray.length,
+            hourRange = d3.scale.ordinal()
+                        .domain(clock)
+                        .rangePoints([bWidth/2 + 2, w - (bWidth/2 + 2)]),
+            xAxis = d3.svg.axis()
+                      .scale(hourRange)
+                      .orient('bottom')
+                      .tickValues(hourRange.domain());
+
+        svg.selectAll('rect')
+            .data(tArray)
+            .enter()
+            .append('rect')
+            .attr({
+              width: function() {
+                return bWidth - 4;
+              },
+              height: function(d) {
+                return yRange(d);
+              },
+              y: function(d) {
+                return h - yRange(d);
+              },
+              x: function(d,i) {
+                return bWidth * i;
+              },
+              'fill-opacity': function(d) {
+                return oRange(d);
+              }
+            });
+
+      svg.append('g')
+        .attr('class', 'axis')
+        .call(xAxis);
       }
     });
   };

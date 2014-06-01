@@ -12,7 +12,7 @@ var VIZ = (function(v) {
         svg = d3.select(map.getPanes().overlayPane).append("svg"), // Append SVG to map using D3
         g = svg.append("g").attr("class", "leaflet-zoom-hide"); // append 'g' element to the SVG to group data points later on
 
-    d3.json('http://seismograph.github.io/seismograph/data/sf-bike-theft/bike-crime-geo.json', function(error, data) {
+    d3.json('../data/sf-bike-theft/bike-crime-geo.json', function(error, data) {
       if (error) return console.warn(error);
 
       var buildVisualizations = ({ // All of the data dependant functionality exists in this object

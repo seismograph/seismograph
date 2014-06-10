@@ -127,16 +127,20 @@ header {
 }
 
 /********************************************************
- * Page specific imports begins here
+ * Page specific imports begin here
  ********************************************************/
 
 @import 'bicycle-sf.scss';
+
+/********************************************************
+ * Footer styles begin here
+ ********************************************************/
 
 footer {
 	width: 40%;
 	height: 100px;
 	margin: 50px auto 0;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #f1f1f1;
 }
 
 /* ==========================================================================

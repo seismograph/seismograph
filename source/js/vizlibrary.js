@@ -1,6 +1,8 @@
 //= require 'd3.min'
 //= require 'leaflet'
+//= require 'queue.min'
 //= require 'sf-bicycle-theft'
+//= require 'single-people'
 
 if (typeof VIZ === 'object') {
 	(function($, v) {

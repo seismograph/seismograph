@@ -1,0 +1,1 @@
+var input=data.variables,output={};_.each(input,function(n,e){-1!==n.label.indexOf("Median family income in the past 12 months")&&-1===n.label.indexOf("Margin of Error")&&-1===n.concept.indexOf("Presence")&&-1===n.concept.indexOf("GrndPrnt")&&(output[e]=n)});

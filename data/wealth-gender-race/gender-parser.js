@@ -1,0 +1,1 @@
+var input=data.slice(1),output=[];_.each(input,function(t){output.push({geo:{title:t[0],id:t.length>8?t[7]+t[8]:_.last(t)},popData:{total:parseInt(t[1],10),subPops:[{title:"Men",value:parseInt(t[2],10)},{title:"Women",value:parseInt(t[3],10)}]},incomeData:{total:parseInt(t[4],10),subPops:[{title:"Men",value:parseInt(t[5],10)},{title:"Women",valuse:parseInt(t[6],10)}]}})});

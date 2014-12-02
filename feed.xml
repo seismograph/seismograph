@@ -5,16 +5,33 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-05-24T00:00:00Z</updated>
+  <updated>2014-11-29T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Mapping Wealth By Race &amp; Gender in the US</title>
+    <link rel="alternate" href="http://blog.url.com/mapping-wealth-race-gender.html"/>
+    <id>http://blog.url.com/mapping-wealth-race-gender.html</id>
+    <published>2014-11-29T00:00:00Z</published>
+    <updated>2014-11-30T15:50:22-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;div class="mapWrap"&gt;
+	&lt;div class="canvas external" id="wealth-race-gender"&gt;&lt;/div&gt;
+	&lt;span id="wealth-race-gender-bar"&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Where Your Bicycle Is Most Likely To Get Stolen In San Francisco</title>
     <link rel="alternate" href="http://blog.url.com/stolen-bicycle-map-sf.html"/>
     <id>http://blog.url.com/stolen-bicycle-map-sf.html</id>
     <published>2014-05-24T00:00:00Z</published>
-    <updated>2014-06-09T19:25:53-07:00</updated>
+    <updated>2014-11-29T14:11:16-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -23,7 +40,7 @@
 &lt;p&gt;Total # of bicycles reported stolen: &lt;strong&gt;813&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class="mapWrap"&gt;
-	&lt;div class="canvas" id="sfBicycleTheft"&gt;&lt;/div&gt;
+	&lt;div class="canvas external" id="sf-bicycle-theft"&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 

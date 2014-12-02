@@ -1,0 +1,52 @@
+{
+  "B19113G_001E": {
+    "label": "Median family income in the past 12 months (in 2013 inflation-adjusted dollars)",
+    "concept": "B19113G.  Median Family Income (Two or More Races Householder)",
+    "predicateType": "int"
+  },
+  "B19113A_001E": {
+    "label": "Median family income in the past 12 months (in 2013 inflation-adjusted dollars)",
+    "concept": "B19113A.  Median Family Income (White Alone Householder)",
+    "predicateType": "int"
+  },
+  "B19113C_001E": {
+    "label": "Median family income in the past 12 months (in 2013 inflation-adjusted dollars)",
+    "concept": "B19113C.  Median Family Income (American Indian and Alaska Native Alone Householder)",
+    "predicateType": "int"
+  },
+  "B19113D_001E": {
+    "label": "Median family income in the past 12 months (in 2013 inflation-adjusted dollars)",
+    "concept": "B19113D.  Median Family Income (Asian Alone Householder)",
+    "predicateType": "int"
+  },
+  "B19113E_001E": {
+    "label": "Median family income in the past 12 months (in 2013 inflation-adjusted dollars)",
+    "concept": "B19113E.  Median Family Income (Native Hawaiian and Other Pacific Islander Alone Householder)",
+    "predicateType": "int"
+  },
+  "B19113F_001E": {
+    "label": "Median family income in the past 12 months (in 2013 inflation-adjusted dollars)",
+    "concept": "B19113F.  Median Family Income (Some Other Race Alone Householder)",
+    "predicateType": "int"
+  },
+  "B19113I_001E": {
+    "label": "Median family income in the past 12 months (in 2013 inflation-adjusted dollars)",
+    "concept": "B19113I.  Median Family Income (Hispanic or Latino Householder)",
+    "predicateType": "int"
+  },
+  "B19113H_001E": {
+    "label": "Median family income in the past 12 months (in 2013 inflation-adjusted dollars)",
+    "concept": "B19113H.  Median Family Income (White Alone, Not Hispanic or Latino Householder)",
+    "predicateType": "int"
+  },
+  "B19113B_001E": {
+    "label": "Median family income in the past 12 months (in 2013 inflation-adjusted dollars)",
+    "concept": "B19113B.  Median Family Income (Black or African American Alone Householder)",
+    "predicateType": "int"
+  },
+  "B19113_001E": {
+    "label": "Median family income in the past 12 months (in 2013 inflation-adjusted dollars)",
+    "concept": "B19113.  Median Family Income",
+    "predicateType": "int"
+  }
+}

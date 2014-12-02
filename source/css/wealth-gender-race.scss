@@ -1,0 +1,50 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+#main {
+	.mapWrap {
+		position: relative;
+
+		#wealth-race-gender {
+			cursor: default;
+
+			.counties {
+			  stroke: #fff;
+			  stroke-width: 1;
+			  stroke-opacity: 0.5;
+			  stroke-linejoin: round;
+
+			  &:hover {
+			  	stroke-width: 3;
+			  	stroke-opacity: 1
+			  }
+			}
+
+			.states {
+			  fill: none;
+			  stroke: #333;
+			  stroke-linejoin: round;
+			  stroke-linecap: butt;
+			  stroke-dasharray: 8,5;
+			  stroke-width: 1;
+			  stroke-opacity: 0.9;
+			}
+		}
+
+		#wealth-race-gender-bar {
+			position: relative;
+			top: -550px;
+			display: inline-block;
+			z-index: 1000;
+			background: white;
+			opacity: 0.7;
+
+			.barChart {				
+				.Black { fill: #4192BA; }
+				.White { fill: #386938; }
+				.Asian { fill: #e84834; }
+				.Hispanic { fill: #e1aa22; }
+				.Other { fill: #777777; }
+			}
+		}
+	}
+}

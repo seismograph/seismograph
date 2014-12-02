@@ -9,7 +9,7 @@ This map shows every reported bicycle theft in San Francisco in 2013. Each circl
 Total # of bicycles reported stolen: **813**
 
 <div class="mapWrap">
-	<div class="canvas" id="sfBicycleTheft"></div>
+	<div class="canvas external" id="sf-bicycle-theft"></div>
 </div>
 END_SUMMARY
 

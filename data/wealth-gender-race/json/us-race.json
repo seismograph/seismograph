@@ -1,25 +1,8 @@
-[
-  {
-    "geo": { "title": "United States", "id": 1 },
-    "popData": {
-      "total": 309138711,
-      "subPops": [
-        { "title": "Black", "value": 38825848 },
-        { "title": "Asian", "value": 14859795 },
-        { "title": "White", "value": 196903968 },
-        { "title": "Hispanic", "value": 50545275 },
-        { "title": "Other", "value": 6538541 }
-      ]
-    },
-    "incomeData": {
-      "total": 64585,
-      "subPops": [
-        { "title": "Black", "value": 42434 },
-        { "title": "Asian", "value": 82126 },
-        { "title": "White", "value": 72674 },
-        { "title": "Hispanic", "value": 43497 },
-        { "title": "Other", "value": 49419 }
-      ]
-    }
+{
+  "0": ["Black", "Asian", "White", "Hispanic", "Other"],
+  "1": {
+    "title": "United States",
+    "popData": { "total": 309138711, "subPops": [38825848, 14859795, 196903968, 50545275, 6538541] },
+    "incomeData": { "total": 64585, "subPops": [42434, 82126, 72674, 43497, 49419] }
   }
-]
+}

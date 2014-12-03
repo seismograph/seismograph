@@ -1,1198 +1,263 @@
-[
-  {
-    "geo": { "title": "Alabama", "id": 1 },
-    "popData": {
-      "total": 4777326,
-      "subPops": [
-        { "title": "Black", "value": 1256097 },
-        { "title": "Asian", "value": 54923 },
-        { "title": "White", "value": 3202443 },
-        { "title": "Hispanic", "value": 182268 },
-        { "title": "Other", "value": 36247 }
-      ]
-    },
-    "incomeData": {
-      "total": 54326,
-      "subPops": [
-        { "title": "Black", "value": 34938 },
-        { "title": "Asian", "value": 66713 },
-        { "title": "White", "value": 62561 },
-        { "title": "Hispanic", "value": 33169 },
-        { "title": "Other", "value": 48004 }
-      ]
-    }
+{
+  "0": ["Black", "Asian", "White", "Hispanic", "Other"],
+  "1": {
+    "title": "Alabama",
+    "popData": { "total": 4777326, "subPops": [1256097, 54923, 3202443, 182268, 36247] },
+    "incomeData": { "total": 54326, "subPops": [34938, 66713, 62561, 33169, 48004] }
   },
-  {
-    "geo": { "title": "Alaska", "id": 2 },
-    "popData": {
-      "total": 711139,
-      "subPops": [
-        { "title": "Black", "value": 24219 },
-        { "title": "Asian", "value": 37968 },
-        { "title": "White", "value": 454689 },
-        { "title": "Hispanic", "value": 40371 },
-        { "title": "Other", "value": 42742 }
-      ]
-    },
-    "incomeData": {
-      "total": 81752,
-      "subPops": [
-        { "title": "Black", "value": 65750 },
-        { "title": "Asian", "value": 68033 },
-        { "title": "White", "value": 90633 },
-        { "title": "Hispanic", "value": 68113 },
-        { "title": "Other", "value": 57018 }
-      ]
-    }
+  "2": {
+    "title": "Alaska",
+    "popData": { "total": 711139, "subPops": [24219, 37968, 454689, 40371, 42742] },
+    "incomeData": { "total": 81752, "subPops": [65750, 68033, 90633, 68113, 57018] }
   },
-  {
-    "geo": { "title": "Arizona", "id": 4 },
-    "popData": {
-      "total": 6410979,
-      "subPops": [
-        { "title": "Black", "value": 262284 },
-        { "title": "Asian", "value": 177598 },
-        { "title": "White", "value": 3701932 },
-        { "title": "Hispanic", "value": 1902946 },
-        { "title": "Other", "value": 221286 }
-      ]
-    },
-    "incomeData": {
-      "total": 59563,
-      "subPops": [
-        { "title": "Black", "value": 49032 },
-        { "title": "Asian", "value": 78067 },
-        { "title": "White", "value": 69549 },
-        { "title": "Hispanic", "value": 40356 },
-        { "title": "Other", "value": 44382 }
-      ]
-    }
+  "4": {
+    "title": "Arizona",
+    "popData": { "total": 6410979, "subPops": [262284, 177598, 3701932, 1902946, 221286] },
+    "incomeData": { "total": 59563, "subPops": [49032, 78067, 69549, 40356, 44382] }
   },
-  {
-    "geo": { "title": "Arkansas", "id": 5 },
-    "popData": {
-      "total": 2916372,
-      "subPops": [
-        { "title": "Black", "value": 453062 },
-        { "title": "Asian", "value": 35744 },
-        { "title": "White", "value": 2172674 },
-        { "title": "Hispanic", "value": 185239 },
-        { "title": "Other", "value": 35497 }
-      ]
-    },
-    "incomeData": {
-      "total": 50453,
-      "subPops": [
-        { "title": "Black", "value": 30840 },
-        { "title": "Asian", "value": 59588 },
-        { "title": "White", "value": 55126 },
-        { "title": "Hispanic", "value": 34202 },
-        { "title": "Other", "value": 38021 }
-      ]
-    }
+  "5": {
+    "title": "Arkansas",
+    "popData": { "total": 2916372, "subPops": [453062, 35744, 2172674, 185239, 35497] },
+    "incomeData": { "total": 50453, "subPops": [30840, 59588, 55126, 34202, 38021] }
   },
-  {
-    "geo": { "title": "California", "id": 6 },
-    "popData": {
-      "total": 37325068,
-      "subPops": [
-        { "title": "Black", "value": 2254160 },
-        { "title": "Asian", "value": 4921543 },
-        { "title": "White", "value": 14977510 },
-        { "title": "Hispanic", "value": 14024109 },
-        { "title": "Other", "value": 1724203 }
-      ]
-    },
-    "incomeData": {
-      "total": 69883,
-      "subPops": [
-        { "title": "Black", "value": 53371 },
-        { "title": "Asian", "value": 86106 },
-        { "title": "White", "value": 90060 },
-        { "title": "Hispanic", "value": 47314 },
-        { "title": "Other", "value": 57141 }
-      ]
-    }
+  "6": {
+    "title": "California",
+    "popData": { "total": 37325068, "subPops": [2254160, 4921543, 14977510, 14024109, 1724203] },
+    "incomeData": { "total": 69883, "subPops": [53371, 86106, 90060, 47314, 57141] }
   },
-  {
-    "geo": { "title": "Colorado", "id": 8 },
-    "popData": {
-      "total": 5042853,
-      "subPops": [
-        { "title": "Black", "value": 201424 },
-        { "title": "Asian", "value": 136882 },
-        { "title": "White", "value": 3528458 },
-        { "title": "Hispanic", "value": 1040478 },
-        { "title": "Other", "value": 115199 }
-      ]
-    },
-    "incomeData": {
-      "total": 72455,
-      "subPops": [
-        { "title": "Black", "value": 48446 },
-        { "title": "Asian", "value": 74667 },
-        { "title": "White", "value": 81467 },
-        { "title": "Hispanic", "value": 43133 },
-        { "title": "Other", "value": 49322 }
-      ]
-    }
+  "8": {
+    "title": "Colorado",
+    "popData": { "total": 5042853, "subPops": [201424, 136882, 3528458, 1040478, 115199] },
+    "incomeData": { "total": 72455, "subPops": [48446, 74667, 81467, 43133, 49322] }
   },
-  {
-    "geo": { "title": "Connecticut", "id": 9 },
-    "popData": {
-      "total": 3572213,
-      "subPops": [
-        { "title": "Black", "value": 355660 },
-        { "title": "Asian", "value": 138355 },
-        { "title": "White", "value": 2542435 },
-        { "title": "Hispanic", "value": 480185 },
-        { "title": "Other", "value": 68995 }
-      ]
-    },
-    "incomeData": {
-      "total": 87182,
-      "subPops": [
-        { "title": "Black", "value": 51876 },
-        { "title": "Asian", "value": 97253 },
-        { "title": "White", "value": 98666 },
-        { "title": "Hispanic", "value": 41955 },
-        { "title": "Other", "value": 51732 }
-      ]
-    }
+  "9": {
+    "title": "Connecticut",
+    "popData": { "total": 3572213, "subPops": [355660, 138355, 2542435, 480185, 68995] },
+    "incomeData": { "total": 87182, "subPops": [51876, 97253, 98666, 41955, 51732] }
   },
-  {
-    "geo": { "title": "Delaware", "id": 10 },
-    "popData": {
-      "total": 900131,
-      "subPops": [
-        { "title": "Black", "value": 192629 },
-        { "title": "Asian", "value": 29177 },
-        { "title": "White", "value": 588086 },
-        { "title": "Hispanic", "value": 73230 },
-        { "title": "Other", "value": 11017 }
-      ]
-    },
-    "incomeData": {
-      "total": 72069,
-      "subPops": [
-        { "title": "Black", "value": 51353 },
-        { "title": "Asian", "value": 100789 },
-        { "title": "White", "value": 80112 },
-        { "title": "Hispanic", "value": 44958 },
-        { "title": "Other", "value": 46388 }
-      ]
-    }
+  "10": {
+    "title": "Delaware",
+    "popData": { "total": 900131, "subPops": [192629, 29177, 588086, 73230, 11017] },
+    "incomeData": { "total": 72069, "subPops": [51353, 100789, 80112, 44958, 46388] }
   },
-  {
-    "geo": { "title": "District of Columbia", "id": 11 },
-    "popData": {
-      "total": 605759,
-      "subPops": [
-        { "title": "Black", "value": 309263 },
-        { "title": "Asian", "value": 21440 },
-        { "title": "White", "value": 209183 },
-        { "title": "Hispanic", "value": 56259 },
-        { "title": "Other", "value": 8911 }
-      ]
-    },
-    "incomeData": {
-      "total": 78993,
-      "subPops": [
-        { "title": "Black", "value": 48368 },
-        { "title": "Asian", "value": 117067 },
-        { "title": "White", "value": 185238 },
-        { "title": "Hispanic", "value": 55600 },
-        { "title": "Other", "value": null }
-      ]
-    }
+  "11": {
+    "title": "District of Columbia",
+    "popData": { "total": 605759, "subPops": [309263, 21440, 209183, 56259, 8911] },
+    "incomeData": { "total": 78993, "subPops": [48368, 117067, 185238, 55600, null] }
   },
-  {
-    "geo": { "title": "Florida", "id": 12 },
-    "popData": {
-      "total": 18885152,
-      "subPops": [
-        { "title": "Black", "value": 3005551 },
-        { "title": "Asian", "value": 464587 },
-        { "title": "White", "value": 10917268 },
-        { "title": "Hispanic", "value": 4247427 },
-        { "title": "Other", "value": 244163 }
-      ]
-    },
-    "incomeData": {
-      "total": 57128,
-      "subPops": [
-        { "title": "Black", "value": 39753 },
-        { "title": "Asian", "value": 67727 },
-        { "title": "White", "value": 65676 },
-        { "title": "Hispanic", "value": 44376 },
-        { "title": "Other", "value": 46164 }
-      ]
-    }
+  "12": {
+    "title": "Florida",
+    "popData": { "total": 18885152, "subPops": [3005551, 464587, 10917268, 4247427, 244163] },
+    "incomeData": { "total": 57128, "subPops": [39753, 67727, 65676, 44376, 46164] }
   },
-  {
-    "geo": { "title": "Georgia", "id": 13 },
-    "popData": {
-      "total": 9714569,
-      "subPops": [
-        { "title": "Black", "value": 2970481 },
-        { "title": "Asian", "value": 318530 },
-        { "title": "White", "value": 5424856 },
-        { "title": "Hispanic", "value": 853602 },
-        { "title": "Other", "value": 130596 }
-      ]
-    },
-    "incomeData": {
-      "total": 59198,
-      "subPops": [
-        { "title": "Black", "value": 42421 },
-        { "title": "Asian", "value": 68656 },
-        { "title": "White", "value": 70379 },
-        { "title": "Hispanic", "value": 36346 },
-        { "title": "Other", "value": 45707 }
-      ]
-    }
+  "13": {
+    "title": "Georgia",
+    "popData": { "total": 9714569, "subPops": [2970481, 318530, 5424856, 853602, 130596] },
+    "incomeData": { "total": 59198, "subPops": [42421, 68656, 70379, 36346, 45707] }
   },
-  {
-    "geo": { "title": "Hawaii", "id": 15 },
-    "popData": {
-      "total": 1362730,
-      "subPops": [
-        { "title": "Black", "value": 22399 },
-        { "title": "Asian", "value": 527745 },
-        { "title": "White", "value": 310367 },
-        { "title": "Hispanic", "value": 122882 },
-        { "title": "Other", "value": 118377 }
-      ]
-    },
-    "incomeData": {
-      "total": 79595,
-      "subPops": [
-        { "title": "Black", "value": 68105 },
-        { "title": "Asian", "value": 85410 },
-        { "title": "White", "value": 83312 },
-        { "title": "Hispanic", "value": 60264 },
-        { "title": "Other", "value": 66101 }
-      ]
-    }
+  "15": {
+    "title": "Hawaii",
+    "popData": { "total": 1362730, "subPops": [22399, 527745, 310367, 122882, 118377] },
+    "incomeData": { "total": 79595, "subPops": [68105, 85410, 83312, 60264, 66101] }
   },
-  {
-    "geo": { "title": "Idaho", "id": 16 },
-    "popData": {
-      "total": 1567803,
-      "subPops": [
-        { "title": "Black", "value": 8821 },
-        { "title": "Asian", "value": 19097 },
-        { "title": "White", "value": 1316166 },
-        { "title": "Hispanic", "value": 175512 },
-        { "title": "Other", "value": 23649 }
-      ]
-    },
-    "incomeData": {
-      "total": 55636,
-      "subPops": [
-        { "title": "Black", "value": 41351 },
-        { "title": "Asian", "value": 55621 },
-        { "title": "White", "value": 58013 },
-        { "title": "Hispanic", "value": 36426 },
-        { "title": "Other", "value": 43369 }
-      ]
-    }
+  "16": {
+    "title": "Idaho",
+    "popData": { "total": 1567803, "subPops": [8821, 19097, 1316166, 175512, 23649] },
+    "incomeData": { "total": 55636, "subPops": [41351, 55621, 58013, 36426, 43369] }
   },
-  {
-    "geo": { "title": "Illinois", "id": 17 },
-    "popData": {
-      "total": 12823860,
-      "subPops": [
-        { "title": "Black", "value": 1860471 },
-        { "title": "Asian", "value": 595110 },
-        { "title": "White", "value": 8149479 },
-        { "title": "Hispanic", "value": 2027384 },
-        { "title": "Other", "value": 267387 }
-      ]
-    },
-    "incomeData": {
-      "total": 70144,
-      "subPops": [
-        { "title": "Black", "value": 42154 },
-        { "title": "Asian", "value": 87041 },
-        { "title": "White", "value": 79787 },
-        { "title": "Hispanic", "value": 47757 },
-        { "title": "Other", "value": 55461 }
-      ]
-    }
+  "17": {
+    "title": "Illinois",
+    "popData": { "total": 12823860, "subPops": [1860471, 595110, 8149479, 2027384, 267387] },
+    "incomeData": { "total": 70144, "subPops": [42154, 87041, 79787, 47757, 55461] }
   },
-  {
-    "geo": { "title": "Indiana", "id": 18 },
-    "popData": {
-      "total": 6485530,
-      "subPops": [
-        { "title": "Black", "value": 582691 },
-        { "title": "Asian", "value": 102713 },
-        { "title": "White", "value": 5284553 },
-        { "title": "Hispanic", "value": 389094 },
-        { "title": "Other", "value": 74828 }
-      ]
-    },
-    "incomeData": {
-      "total": 60012,
-      "subPops": [
-        { "title": "Black", "value": 36361 },
-        { "title": "Asian", "value": 68716 },
-        { "title": "White", "value": 63130 },
-        { "title": "Hispanic", "value": 39430 },
-        { "title": "Other", "value": 39688 }
-      ]
-    }
+  "18": {
+    "title": "Indiana",
+    "popData": { "total": 6485530, "subPops": [582691, 102713, 5284553, 389094, 74828] },
+    "incomeData": { "total": 60012, "subPops": [36361, 68716, 63130, 39430, 39688] }
   },
-  {
-    "geo": { "title": "Iowa", "id": 19 },
-    "popData": {
-      "total": 3047646,
-      "subPops": [
-        { "title": "Black", "value": 88664 },
-        { "title": "Asian", "value": 54262 },
-        { "title": "White", "value": 2700729 },
-        { "title": "Hispanic", "value": 151027 },
-        { "title": "Other", "value": 27822 }
-      ]
-    },
-    "incomeData": {
-      "total": 64772,
-      "subPops": [
-        { "title": "Black", "value": 29348 },
-        { "title": "Asian", "value": 65727 },
-        { "title": "White", "value": 66766 },
-        { "title": "Hispanic", "value": 39453 },
-        { "title": "Other", "value": 41367 }
-      ]
-    }
+  "19": {
+    "title": "Iowa",
+    "popData": { "total": 3047646, "subPops": [88664, 54262, 2700729, 151027, 27822] },
+    "incomeData": { "total": 64772, "subPops": [29348, 65727, 66766, 39453, 41367] }
   },
-  {
-    "geo": { "title": "Kansas", "id": 20 },
-    "popData": {
-      "total": 2851183,
-      "subPops": [
-        { "title": "Black", "value": 164177 },
-        { "title": "Asian", "value": 68683 },
-        { "title": "White", "value": 2229454 },
-        { "title": "Hispanic", "value": 298636 },
-        { "title": "Other", "value": 45768 }
-      ]
-    },
-    "incomeData": {
-      "total": 64731,
-      "subPops": [
-        { "title": "Black", "value": 42113 },
-        { "title": "Asian", "value": 71180 },
-        { "title": "White", "value": 69081 },
-        { "title": "Hispanic", "value": 41134 },
-        { "title": "Other", "value": 47280 }
-      ]
-    }
+  "20": {
+    "title": "Kansas",
+    "popData": { "total": 2851183, "subPops": [164177, 68683, 2229454, 298636, 45768] },
+    "incomeData": { "total": 64731, "subPops": [42113, 71180, 69081, 41134, 47280] }
   },
-  {
-    "geo": { "title": "Kentucky", "id": 21 },
-    "popData": {
-      "total": 4340167,
-      "subPops": [
-        { "title": "Black", "value": 339228 },
-        { "title": "Asian", "value": 49681 },
-        { "title": "White", "value": 3746258 },
-        { "title": "Hispanic", "value": 131039 },
-        { "title": "Other", "value": 31979 }
-      ]
-    },
-    "incomeData": {
-      "total": 53833,
-      "subPops": [
-        { "title": "Black", "value": 35399 },
-        { "title": "Asian", "value": 75933 },
-        { "title": "White", "value": 55811 },
-        { "title": "Hispanic", "value": 34419 },
-        { "title": "Other", "value": 39514 }
-      ]
-    }
+  "21": {
+    "title": "Kentucky",
+    "popData": { "total": 4340167, "subPops": [339228, 49681, 3746258, 131039, 31979] },
+    "incomeData": { "total": 53833, "subPops": [35399, 75933, 55811, 34419, 39514] }
   },
-  {
-    "geo": { "title": "Louisiana", "id": 22 },
-    "popData": {
-      "total": 4529605,
-      "subPops": [
-        { "title": "Black", "value": 1450992 },
-        { "title": "Asian", "value": 71460 },
-        { "title": "White", "value": 2732796 },
-        { "title": "Hispanic", "value": 192582 },
-        { "title": "Other", "value": 37568 }
-      ]
-    },
-    "incomeData": {
-      "total": 56047,
-      "subPops": [
-        { "title": "Black", "value": 33447 },
-        { "title": "Asian", "value": 60258 },
-        { "title": "White", "value": 68875 },
-        { "title": "Hispanic", "value": 48281 },
-        { "title": "Other", "value": 50585 }
-      ]
-    }
+  "22": {
+    "title": "Louisiana",
+    "popData": { "total": 4529605, "subPops": [1450992, 71460, 2732796, 192582, 37568] },
+    "incomeData": { "total": 56047, "subPops": [33447, 60258, 68875, 48281, 50585] }
   },
-  {
-    "geo": { "title": "Maine", "id": 23 },
-    "popData": {
-      "total": 1329084,
-      "subPops": [
-        { "title": "Black", "value": 14338 },
-        { "title": "Asian", "value": 13971 },
-        { "title": "White", "value": 1254741 },
-        { "title": "Hispanic", "value": 17241 },
-        { "title": "Other", "value": 8585 }
-      ]
-    },
-    "incomeData": {
-      "total": 60408,
-      "subPops": [
-        { "title": "Black", "value": 29502 },
-        { "title": "Asian", "value": 54471 },
-        { "title": "White", "value": 61079 },
-        { "title": "Hispanic", "value": 42066 },
-        { "title": "Other", "value": 48424 }
-      ]
-    }
+  "23": {
+    "title": "Maine",
+    "popData": { "total": 1329084, "subPops": [14338, 13971, 1254741, 17241, 8585] },
+    "incomeData": { "total": 60408, "subPops": [29502, 54471, 61079, 42066, 48424] }
   },
-  {
-    "geo": { "title": "Maryland", "id": 24 },
-    "popData": {
-      "total": 5785496,
-      "subPops": [
-        { "title": "Black", "value": 1700174 },
-        { "title": "Asian", "value": 323363 },
-        { "title": "White", "value": 3163295 },
-        { "title": "Hispanic", "value": 472285 },
-        { "title": "Other", "value": 88478 }
-      ]
-    },
-    "incomeData": {
-      "total": 88092,
-      "subPops": [
-        { "title": "Black", "value": 68002 },
-        { "title": "Asian", "value": 104434 },
-        { "title": "White", "value": 100840 },
-        { "title": "Hispanic", "value": 60293 },
-        { "title": "Other", "value": 69269 }
-      ]
-    }
+  "24": {
+    "title": "Maryland",
+    "popData": { "total": 5785496, "subPops": [1700174, 323363, 3163295, 472285, 88478] },
+    "incomeData": { "total": 88092, "subPops": [68002, 104434, 100840, 60293, 69269] }
   },
-  {
-    "geo": { "title": "Massachusetts", "id": 25 },
-    "popData": {
-      "total": 6560595,
-      "subPops": [
-        { "title": "Black", "value": 446347 },
-        { "title": "Asian", "value": 357354 },
-        { "title": "White", "value": 5006403 },
-        { "title": "Hispanic", "value": 630406 },
-        { "title": "Other", "value": 111487 }
-      ]
-    },
-    "incomeData": {
-      "total": 84380,
-      "subPops": [
-        { "title": "Black", "value": 49980 },
-        { "title": "Asian", "value": 89162 },
-        { "title": "White", "value": 92656 },
-        { "title": "Hispanic", "value": 36738 },
-        { "title": "Other", "value": 40229 }
-      ]
-    }
+  "25": {
+    "title": "Massachusetts",
+    "popData": { "total": 6560595, "subPops": [446347, 357354, 5006403, 630406, 111487] },
+    "incomeData": { "total": 84380, "subPops": [49980, 89162, 92656, 36738, 40229] }
   },
-  {
-    "geo": { "title": "Michigan", "id": 26 },
-    "popData": {
-      "total": 9897264,
-      "subPops": [
-        { "title": "Black", "value": 1391269 },
-        { "title": "Asian", "value": 245587 },
-        { "title": "White", "value": 7573403 },
-        { "title": "Hispanic", "value": 438398 },
-        { "title": "Other", "value": 102023 }
-      ]
-    },
-    "incomeData": {
-      "total": 60749,
-      "subPops": [
-        { "title": "Black", "value": 35744 },
-        { "title": "Asian", "value": 84125 },
-        { "title": "White", "value": 65118 },
-        { "title": "Hispanic", "value": 40989 },
-        { "title": "Other", "value": 45641 }
-      ]
-    }
+  "26": {
+    "title": "Michigan",
+    "popData": { "total": 9897264, "subPops": [1391269, 245587, 7573403, 438398, 102023] },
+    "incomeData": { "total": 60749, "subPops": [35744, 84125, 65118, 40989, 45641] }
   },
-  {
-    "geo": { "title": "Minnesota", "id": 27 },
-    "popData": {
-      "total": 5313081,
-      "subPops": [
-        { "title": "Black", "value": 271953 },
-        { "title": "Asian", "value": 216159 },
-        { "title": "White", "value": 4410412 },
-        { "title": "Hispanic", "value": 250025 },
-        { "title": "Other", "value": 63708 }
-      ]
-    },
-    "incomeData": {
-      "total": 74032,
-      "subPops": [
-        { "title": "Black", "value": 32849 },
-        { "title": "Asian", "value": 72214 },
-        { "title": "White", "value": 77730 },
-        { "title": "Hispanic", "value": 40204 },
-        { "title": "Other", "value": 39378 }
-      ]
-    }
+  "27": {
+    "title": "Minnesota",
+    "popData": { "total": 5313081, "subPops": [271953, 216159, 4410412, 250025, 63708] },
+    "incomeData": { "total": 74032, "subPops": [32849, 72214, 77730, 40204, 39378] }
   },
-  {
-    "geo": { "title": "Mississippi", "id": 28 },
-    "popData": {
-      "total": 2967620,
-      "subPops": [
-        { "title": "Black", "value": 1101849 },
-        { "title": "Asian", "value": 26403 },
-        { "title": "White", "value": 1721075 },
-        { "title": "Hispanic", "value": 78634 },
-        { "title": "Other", "value": 17710 }
-      ]
-    },
-    "incomeData": {
-      "total": 48300,
-      "subPops": [
-        { "title": "Black", "value": 30481 },
-        { "title": "Asian", "value": 59337 },
-        { "title": "White", "value": 59946 },
-        { "title": "Hispanic", "value": 39097 },
-        { "title": "Other", "value": 34339 }
-      ]
-    }
+  "28": {
+    "title": "Mississippi",
+    "popData": { "total": 2967620, "subPops": [1101849, 26403, 1721075, 78634, 17710] },
+    "incomeData": { "total": 48300, "subPops": [30481, 59337, 59946, 39097, 34339] }
   },
-  {
-    "geo": { "title": "Missouri", "id": 29 },
-    "popData": {
-      "total": 5982413,
-      "subPops": [
-        { "title": "Black", "value": 689683 },
-        { "title": "Asian", "value": 96035 },
-        { "title": "White", "value": 4840138 },
-        { "title": "Hispanic", "value": 212152 },
-        { "title": "Other", "value": 56041 }
-      ]
-    },
-    "incomeData": {
-      "total": 59395,
-      "subPops": [
-        { "title": "Black", "value": 37734 },
-        { "title": "Asian", "value": 76969 },
-        { "title": "White", "value": 62616 },
-        { "title": "Hispanic", "value": 40642 },
-        { "title": "Other", "value": 42559 }
-      ]
-    }
+  "29": {
+    "title": "Missouri",
+    "popData": { "total": 5982413, "subPops": [689683, 96035, 4840138, 212152, 56041] },
+    "incomeData": { "total": 59395, "subPops": [37734, 76969, 62616, 40642, 42559] }
   },
-  {
-    "geo": { "title": "Montana", "id": 30 },
-    "popData": {
-      "total": 990785,
-      "subPops": [
-        { "title": "Black", "value": 4145 },
-        { "title": "Asian", "value": 6034 },
-        { "title": "White", "value": 868906 },
-        { "title": "Hispanic", "value": 28984 },
-        { "title": "Other", "value": 23171 }
-      ]
-    },
-    "incomeData": {
-      "total": 58951,
-      "subPops": [
-        { "title": "Black", "value": 39375 },
-        { "title": "Asian", "value": 67218 },
-        { "title": "White", "value": 60735 },
-        { "title": "Hispanic", "value": 38945 },
-        { "title": "Other", "value": 44016 }
-      ]
-    }
+  "30": {
+    "title": "Montana",
+    "popData": { "total": 990785, "subPops": [4145, 6034, 868906, 28984, 23171] },
+    "incomeData": { "total": 58951, "subPops": [39375, 67218, 60735, 38945, 44016] }
   },
-  {
-    "geo": { "title": "Nebraska", "id": 31 },
-    "popData": {
-      "total": 1827306,
-      "subPops": [
-        { "title": "Black", "value": 82341 },
-        { "title": "Asian", "value": 32302 },
-        { "title": "White", "value": 1500944 },
-        { "title": "Hispanic", "value": 167155 },
-        { "title": "Other", "value": 25031 }
-      ]
-    },
-    "incomeData": {
-      "total": 64820,
-      "subPops": [
-        { "title": "Black", "value": 34046 },
-        { "title": "Asian", "value": 65518 },
-        { "title": "White", "value": 69022 },
-        { "title": "Hispanic", "value": 38523 },
-        { "title": "Other", "value": 36922 }
-      ]
-    }
+  "31": {
+    "title": "Nebraska",
+    "popData": { "total": 1827306, "subPops": [82341, 32302, 1500944, 167155, 25031] },
+    "incomeData": { "total": 64820, "subPops": [34046, 65518, 69022, 38523, 36922] }
   },
-  {
-    "geo": { "title": "Nevada", "id": 32 },
-    "popData": {
-      "total": 2704204,
-      "subPops": [
-        { "title": "Black", "value": 218305 },
-        { "title": "Asian", "value": 196245 },
-        { "title": "White", "value": 1462400 },
-        { "title": "Hispanic", "value": 717835 },
-        { "title": "Other", "value": 79895 }
-      ]
-    },
-    "incomeData": {
-      "total": 62789,
-      "subPops": [
-        { "title": "Black", "value": 46871 },
-        { "title": "Asian", "value": 69425 },
-        { "title": "White", "value": 72450 },
-        { "title": "Hispanic", "value": 44473 },
-        { "title": "Other", "value": 53776 }
-      ]
-    }
+  "32": {
+    "title": "Nevada",
+    "popData": { "total": 2704204, "subPops": [218305, 196245, 1462400, 717835, 79895] },
+    "incomeData": { "total": 62789, "subPops": [46871, 69425, 72450, 44473, 53776] }
   },
-  {
-    "geo": { "title": "New Hampshire", "id": 33 },
-    "popData": {
-      "total": 1317474,
-      "subPops": [
-        { "title": "Black", "value": 15339 },
-        { "title": "Asian", "value": 28684 },
-        { "title": "White", "value": 1214875 },
-        { "title": "Hispanic", "value": 37355 },
-        { "title": "Other", "value": 8003 }
-      ]
-    },
-    "incomeData": {
-      "total": 79488,
-      "subPops": [
-        { "title": "Black", "value": 47585 },
-        { "title": "Asian", "value": 87252 },
-        { "title": "White", "value": 80305 },
-        { "title": "Hispanic", "value": 52969 },
-        { "title": "Other", "value": 66937 }
-      ]
-    }
+  "33": {
+    "title": "New Hampshire",
+    "popData": { "total": 1317474, "subPops": [15339, 28684, 1214875, 37355, 8003] },
+    "incomeData": { "total": 79488, "subPops": [47585, 87252, 80305, 52969, 66937] }
   },
-  {
-    "geo": { "title": "New Jersey", "id": 34 },
-    "popData": {
-      "total": 8793888,
-      "subPops": [
-        { "title": "Black", "value": 1187307 },
-        { "title": "Asian", "value": 736015 },
-        { "title": "White", "value": 5208824 },
-        { "title": "Hispanic", "value": 1557680 },
-        { "title": "Other", "value": 187386 }
-      ]
-    },
-    "incomeData": {
-      "total": 87389,
-      "subPops": [
-        { "title": "Black", "value": 57888 },
-        { "title": "Asian", "value": 110488 },
-        { "title": "White", "value": 101020 },
-        { "title": "Hispanic", "value": 50950 },
-        { "title": "Other", "value": 57212 }
-      ]
-    }
+  "34": {
+    "title": "New Jersey",
+    "popData": { "total": 8793888, "subPops": [1187307, 736015, 5208824, 1557680, 187386] },
+    "incomeData": { "total": 87389, "subPops": [57888, 110488, 101020, 50950, 57212] }
   },
-  {
-    "geo": { "title": "New Mexico", "id": 35 },
-    "popData": {
-      "total": 2055287,
-      "subPops": [
-        { "title": "Black", "value": 41634 },
-        { "title": "Asian", "value": 26855 },
-        { "title": "White", "value": 831543 },
-        { "title": "Hispanic", "value": 952569 },
-        { "title": "Other", "value": 123539 }
-      ]
-    },
-    "incomeData": {
-      "total": 54221,
-      "subPops": [
-        { "title": "Black", "value": 47039 },
-        { "title": "Asian", "value": 69443 },
-        { "title": "White", "value": 70800 },
-        { "title": "Hispanic", "value": 41553 },
-        { "title": "Other", "value": 45375 }
-      ]
-    }
+  "35": {
+    "title": "New Mexico",
+    "popData": { "total": 2055287, "subPops": [41634, 26855, 831543, 952569, 123539] },
+    "incomeData": { "total": 54221, "subPops": [47039, 69443, 70800, 41553, 45375] }
   },
-  {
-    "geo": { "title": "New York", "id": 36 },
-    "popData": {
-      "total": 19398125,
-      "subPops": [
-        { "title": "Black", "value": 3037255 },
-        { "title": "Asian", "value": 1445539 },
-        { "title": "White", "value": 11300531 },
-        { "title": "Hispanic", "value": 3425845 },
-        { "title": "Other", "value": 526766 }
-      ]
-    },
-    "incomeData": {
-      "total": 69968,
-      "subPops": [
-        { "title": "Black", "value": 50109 },
-        { "title": "Asian", "value": 66261 },
-        { "title": "White", "value": 83264 },
-        { "title": "Hispanic", "value": 42751 },
-        { "title": "Other", "value": 46332 }
-      ]
-    }
+  "36": {
+    "title": "New York",
+    "popData": { "total": 19398125, "subPops": [3037255, 1445539, 11300531, 3425845, 526766] },
+    "incomeData": { "total": 69968, "subPops": [50109, 66261, 83264, 42751, 46332] }
   },
-  {
-    "geo": { "title": "North Carolina", "id": 37 },
-    "popData": {
-      "total": 9544249,
-      "subPops": [
-        { "title": "Black", "value": 2047092 },
-        { "title": "Asian", "value": 211708 },
-        { "title": "White", "value": 6227534 },
-        { "title": "Hispanic", "value": 796293 },
-        { "title": "Other", "value": 156396 }
-      ]
-    },
-    "incomeData": {
-      "total": 57146,
-      "subPops": [
-        { "title": "Black", "value": 38731 },
-        { "title": "Asian", "value": 72467 },
-        { "title": "White", "value": 65835 },
-        { "title": "Hispanic", "value": 33060 },
-        { "title": "Other", "value": 40893 }
-      ]
-    }
+  "37": {
+    "title": "North Carolina",
+    "popData": { "total": 9544249, "subPops": [2047092, 211708, 6227534, 796293, 156396] },
+    "incomeData": { "total": 57146, "subPops": [38731, 72467, 65835, 33060, 40893] }
   },
-  {
-    "geo": { "title": "North Dakota", "id": 38 },
-    "popData": {
-      "total": 676253,
-      "subPops": [
-        { "title": "Black", "value": 8286 },
-        { "title": "Asian", "value": 6869 },
-        { "title": "White", "value": 600528 },
-        { "title": "Hispanic", "value": 14195 },
-        { "title": "Other", "value": 13075 }
-      ]
-    },
-    "incomeData": {
-      "total": 68293,
-      "subPops": [
-        { "title": "Black", "value": 32500 },
-        { "title": "Asian", "value": 61075 },
-        { "title": "White", "value": 70734 },
-        { "title": "Hispanic", "value": 43812 },
-        { "title": "Other", "value": 52272 }
-      ]
-    }
+  "38": {
+    "title": "North Dakota",
+    "popData": { "total": 676253, "subPops": [8286, 6869, 600528, 14195, 13075] },
+    "incomeData": { "total": 68293, "subPops": [32500, 61075, 70734, 43812, 52272] }
   },
-  {
-    "geo": { "title": "Ohio", "id": 39 },
-    "popData": {
-      "total": 11533561,
-      "subPops": [
-        { "title": "Black", "value": 1403238 },
-        { "title": "Asian", "value": 196395 },
-        { "title": "White", "value": 9353385 },
-        { "title": "Hispanic", "value": 354910 },
-        { "title": "Other", "value": 89049 }
-      ]
-    },
-    "incomeData": {
-      "total": 61163,
-      "subPops": [
-        { "title": "Black", "value": 35199 },
-        { "title": "Asian", "value": 82494 },
-        { "title": "White", "value": 64803 },
-        { "title": "Hispanic", "value": 39357 },
-        { "title": "Other", "value": 53563 }
-      ]
-    }
+  "39": {
+    "title": "Ohio",
+    "popData": { "total": 11533561, "subPops": [1403238, 196395, 9353385, 354910, 89049] },
+    "incomeData": { "total": 61163, "subPops": [35199, 82494, 64803, 39357, 53563] }
   },
-  {
-    "geo": { "title": "Oklahoma", "id": 40 },
-    "popData": {
-      "total": 3749005,
-      "subPops": [
-        { "title": "Black", "value": 270993 },
-        { "title": "Asian", "value": 65643 },
-        { "title": "White", "value": 2573810 },
-        { "title": "Hispanic", "value": 331057 },
-        { "title": "Other", "value": 161518 }
-      ]
-    },
-    "incomeData": {
-      "total": 56068,
-      "subPops": [
-        { "title": "Black", "value": 37142 },
-        { "title": "Asian", "value": 61770 },
-        { "title": "White", "value": 61295 },
-        { "title": "Hispanic", "value": 37294 },
-        { "title": "Other", "value": 42611 }
-      ]
-    }
+  "40": {
+    "title": "Oklahoma",
+    "popData": { "total": 3749005, "subPops": [270993, 65643, 2573810, 331057, 161518] },
+    "incomeData": { "total": 56068, "subPops": [37142, 61770, 61295, 37294, 42611] }
   },
-  {
-    "geo": { "title": "Oregon", "id": 41 },
-    "popData": {
-      "total": 3836628,
-      "subPops": [
-        { "title": "Black", "value": 69377 },
-        { "title": "Asian", "value": 143652 },
-        { "title": "White", "value": 3008356 },
-        { "title": "Hispanic", "value": 449888 },
-        { "title": "Other", "value": 87723 }
-      ]
-    },
-    "incomeData": {
-      "total": 61438,
-      "subPops": [
-        { "title": "Black", "value": 42495 },
-        { "title": "Asian", "value": 71429 },
-        { "title": "White", "value": 64645 },
-        { "title": "Hispanic", "value": 38868 },
-        { "title": "Other", "value": 42250 }
-      ]
-    }
+  "41": {
+    "title": "Oregon",
+    "popData": { "total": 3836628, "subPops": [69377, 143652, 3008356, 449888, 87723] },
+    "incomeData": { "total": 61438, "subPops": [42495, 71429, 64645, 38868, 42250] }
   },
-  {
-    "geo": { "title": "Pennsylvania", "id": 42 },
-    "popData": {
-      "total": 12699589,
-      "subPops": [
-        { "title": "Black", "value": 1372144 },
-        { "title": "Asian", "value": 351626 },
-        { "title": "White", "value": 10084398 },
-        { "title": "Hispanic", "value": 721899 },
-        { "title": "Other", "value": 125000 }
-      ]
-    },
-    "incomeData": {
-      "total": 65980,
-      "subPops": [
-        { "title": "Black", "value": 39907 },
-        { "title": "Asian", "value": 76586 },
-        { "title": "White", "value": 70377 },
-        { "title": "Hispanic", "value": 35705 },
-        { "title": "Other", "value": 41849 }
-      ]
-    }
+  "42": {
+    "title": "Pennsylvania",
+    "popData": { "total": 12699589, "subPops": [1372144, 351626, 10084398, 721899, 125000] },
+    "incomeData": { "total": 65980, "subPops": [39907, 76586, 70377, 35705, 41849] }
   },
-  {
-    "geo": { "title": "Rhode Island", "id": 44 },
-    "popData": {
-      "total": 1052471,
-      "subPops": [
-        { "title": "Black", "value": 64711 },
-        { "title": "Asian", "value": 31863 },
-        { "title": "White", "value": 803802 },
-        { "title": "Hispanic", "value": 131316 },
-        { "title": "Other", "value": 24053 }
-      ]
-    },
-    "incomeData": {
-      "total": 72872,
-      "subPops": [
-        { "title": "Black", "value": 39220 },
-        { "title": "Asian", "value": 66822 },
-        { "title": "White", "value": 81593 },
-        { "title": "Hispanic", "value": 34888 },
-        { "title": "Other", "value": 35696 }
-      ]
-    }
+  "44": {
+    "title": "Rhode Island",
+    "popData": { "total": 1052471, "subPops": [64711, 31863, 803802, 131316, 24053] },
+    "incomeData": { "total": 72872, "subPops": [39220, 66822, 81593, 34888, 35696] }
   },
-  {
-    "geo": { "title": "South Carolina", "id": 45 },
-    "popData": {
-      "total": 4630351,
-      "subPops": [
-        { "title": "Black", "value": 1290704 },
-        { "title": "Asian", "value": 57635 },
-        { "title": "White", "value": 2967590 },
-        { "title": "Hispanic", "value": 232926 },
-        { "title": "Other", "value": 43387 }
-      ]
-    },
-    "incomeData": {
-      "total": 55058,
-      "subPops": [
-        { "title": "Black", "value": 35076 },
-        { "title": "Asian", "value": 64608 },
-        { "title": "White", "value": 64627 },
-        { "title": "Hispanic", "value": 35269 },
-        { "title": "Other", "value": 35877 }
-      ]
-    }
+  "45": {
+    "title": "South Carolina",
+    "popData": { "total": 4630351, "subPops": [1290704, 57635, 2967590, 232926, 43387] },
+    "incomeData": { "total": 55058, "subPops": [35076, 64608, 64627, 35269, 35877] }
   },
-  {
-    "geo": { "title": "South Dakota", "id": 46 },
-    "popData": {
-      "total": 815871,
-      "subPops": [
-        { "title": "Black", "value": 10331 },
-        { "title": "Asian", "value": 8060 },
-        { "title": "White", "value": 689709 },
-        { "title": "Hispanic", "value": 22778 },
-        { "title": "Other", "value": 24004 }
-      ]
-    },
-    "incomeData": {
-      "total": 62967,
-      "subPops": [
-        { "title": "Black", "value": 33225 },
-        { "title": "Asian", "value": 64337 },
-        { "title": "White", "value": 66403 },
-        { "title": "Hispanic", "value": 42545 },
-        { "title": "Other", "value": 33586 }
-      ]
-    }
+  "46": {
+    "title": "South Dakota",
+    "popData": { "total": 815871, "subPops": [10331, 8060, 689709, 22778, 24004] },
+    "incomeData": { "total": 62967, "subPops": [33225, 64337, 66403, 42545, 33586] }
   },
-  {
-    "geo": { "title": "Tennessee", "id": 47 },
-    "popData": {
-      "total": 6353226,
-      "subPops": [
-        { "title": "Black", "value": 1060494 },
-        { "title": "Asian", "value": 92800 },
-        { "title": "White", "value": 4801634 },
-        { "title": "Hispanic", "value": 288582 },
-        { "title": "Other", "value": 54239 }
-      ]
-    },
-    "incomeData": {
-      "total": 54737,
-      "subPops": [
-        { "title": "Black", "value": 38657 },
-        { "title": "Asian", "value": 73275 },
-        { "title": "White", "value": 58843 },
-        { "title": "Hispanic", "value": 33736 },
-        { "title": "Other", "value": 44315 }
-      ]
-    }
+  "47": {
+    "title": "Tennessee",
+    "popData": { "total": 6353226, "subPops": [1060494, 92800, 4801634, 288582, 54239] },
+    "incomeData": { "total": 54737, "subPops": [38657, 73275, 58843, 33736, 44315] }
   },
-  {
-    "geo": { "title": "Texas", "id": 48 },
-    "popData": {
-      "total": 25208897,
-      "subPops": [
-        { "title": "Black", "value": 2972834 },
-        { "title": "Asian", "value": 979385 },
-        { "title": "White", "value": 11415017 },
-        { "title": "Hispanic", "value": 9479670 },
-        { "title": "Other", "value": 646478 }
-      ]
-    },
-    "incomeData": {
-      "total": 60621,
-      "subPops": [
-        { "title": "Black", "value": 45449 },
-        { "title": "Asian", "value": 81547 },
-        { "title": "White", "value": 79724 },
-        { "title": "Hispanic", "value": 40900 },
-        { "title": "Other", "value": 52147 }
-      ]
-    }
+  "48": {
+    "title": "Texas",
+    "popData": { "total": 25208897, "subPops": [2972834, 979385, 11415017, 9479670, 646478] },
+    "incomeData": { "total": 60621, "subPops": [45449, 81547, 79724, 40900, 52147] }
   },
-  {
-    "geo": { "title": "Utah", "id": 49 },
-    "popData": {
-      "total": 2766233,
-      "subPops": [
-        { "title": "Black", "value": 29912 },
-        { "title": "Asian", "value": 56081 },
-        { "title": "White", "value": 2224036 },
-        { "title": "Hispanic", "value": 357893 },
-        { "title": "Other", "value": 53741 }
-      ]
-    },
-    "incomeData": {
-      "total": 66014,
-      "subPops": [
-        { "title": "Black", "value": 49850 },
-        { "title": "Asian", "value": 68245 },
-        { "title": "White", "value": 69916 },
-        { "title": "Hispanic", "value": 43103 },
-        { "title": "Other", "value": 45699 }
-      ]
-    }
+  "49": {
+    "title": "Utah",
+    "popData": { "total": 2766233, "subPops": [29912, 56081, 2224036, 357893, 53741] },
+    "incomeData": { "total": 66014, "subPops": [49850, 68245, 69916, 43103, 45699] }
   },
-  {
-    "geo": { "title": "Vermont", "id": 50 },
-    "popData": {
-      "total": 625498,
-      "subPops": [
-        { "title": "Black", "value": 5804 },
-        { "title": "Asian", "value": 7891 },
-        { "title": "White", "value": 589350 },
-        { "title": "Hispanic", "value": 9452 },
-        { "title": "Other", "value": 3888 }
-      ]
-    },
-    "incomeData": {
-      "total": 67274,
-      "subPops": [
-        { "title": "Black", "value": 47191 },
-        { "title": "Asian", "value": 47566 },
-        { "title": "White", "value": 67934 },
-        { "title": "Hispanic", "value": 63581 },
-        { "title": "Other", "value": 50189 }
-      ]
-    }
+  "50": {
+    "title": "Vermont",
+    "popData": { "total": 625498, "subPops": [5804, 7891, 589350, 9452, 3888] },
+    "incomeData": { "total": 67274, "subPops": [47191, 47566, 67934, 63581, 50189] }
   },
-  {
-    "geo": { "title": "Virginia", "id": 51 },
-    "popData": {
-      "total": 8014955,
-      "subPops": [
-        { "title": "Black", "value": 1561042 },
-        { "title": "Asian", "value": 443460 },
-        { "title": "White", "value": 5191698 },
-        { "title": "Hispanic", "value": 631669 },
-        { "title": "Other", "value": 108752 }
-      ]
-    },
-    "incomeData": {
-      "total": 76566,
-      "subPops": [
-        { "title": "Black", "value": 51779 },
-        { "title": "Asian", "value": 99267 },
-        { "title": "White", "value": 84240 },
-        { "title": "Hispanic", "value": 58756 },
-        { "title": "Other", "value": 68538 }
-      ]
-    }
+  "51": {
+    "title": "Virginia",
+    "popData": { "total": 8014955, "subPops": [1561042, 443460, 5191698, 631669, 108752] },
+    "incomeData": { "total": 76566, "subPops": [51779, 99267, 84240, 58756, 68538] }
   },
-  {
-    "geo": { "title": "Washington", "id": 53 },
-    "popData": {
-      "total": 6738714,
-      "subPops": [
-        { "title": "Black", "value": 238255 },
-        { "title": "Asian", "value": 484047 },
-        { "title": "White", "value": 4885262 },
-        { "title": "Hispanic", "value": 754366 },
-        { "title": "Other", "value": 177887 }
-      ]
-    },
-    "incomeData": {
-      "total": 71939,
-      "subPops": [
-        { "title": "Black", "value": 48157 },
-        { "title": "Asian", "value": 81825 },
-        { "title": "White", "value": 76474 },
-        { "title": "Hispanic", "value": 41985 },
-        { "title": "Other", "value": 50881 }
-      ]
-    }
+  "53": {
+    "title": "Washington",
+    "popData": { "total": 6738714, "subPops": [238255, 484047, 4885262, 754366, 177887] },
+    "incomeData": { "total": 71939, "subPops": [48157, 81825, 76474, 41985, 50881] }
   },
-  {
-    "geo": { "title": "West Virginia", "id": 54 },
-    "popData": {
-      "total": 1850481,
-      "subPops": [
-        { "title": "Black", "value": 58260 },
-        { "title": "Asian", "value": 12694 },
-        { "title": "White", "value": 1721720 },
-        { "title": "Hispanic", "value": 22026 },
-        { "title": "Other", "value": 10540 }
-      ]
-    },
-    "incomeData": {
-      "total": 51770,
-      "subPops": [
-        { "title": "Black", "value": 36633 },
-        { "title": "Asian", "value": 92788 },
-        { "title": "White", "value": 52222 },
-        { "title": "Hispanic", "value": 46230 },
-        { "title": "Other", "value": 42080 }
-      ]
-    }
+  "54": {
+    "title": "West Virginia",
+    "popData": { "total": 1850481, "subPops": [58260, 12694, 1721720, 22026, 10540] },
+    "incomeData": { "total": 51770, "subPops": [36633, 92788, 52222, 46230, 42080] }
   },
-  {
-    "geo": { "title": "Wisconsin", "id": 55 },
-    "popData": {
-      "total": 5687219,
-      "subPops": [
-        { "title": "Black", "value": 353470 },
-        { "title": "Asian", "value": 129550 },
-        { "title": "White", "value": 4737471 },
-        { "title": "Hispanic", "value": 335208 },
-        { "title": "Other", "value": 60587 }
-      ]
-    },
-    "incomeData": {
-      "total": 66415,
-      "subPops": [
-        { "title": "Black", "value": 30341 },
-        { "title": "Asian", "value": 65123 },
-        { "title": "White", "value": 70224 },
-        { "title": "Hispanic", "value": 39741 },
-        { "title": "Other", "value": 46235 }
-      ]
-    }
+  "55": {
+    "title": "Wisconsin",
+    "popData": { "total": 5687219, "subPops": [353470, 129550, 4737471, 335208, 60587] },
+    "incomeData": { "total": 66415, "subPops": [30341, 65123, 70224, 39741, 46235] }
   },
-  {
-    "geo": { "title": "Wyoming", "id": 56 },
-    "popData": {
-      "total": 562803,
-      "subPops": [
-        { "title": "Black", "value": 4689 },
-        { "title": "Asian", "value": 4392 },
-        { "title": "White", "value": 481842 },
-        { "title": "Hispanic", "value": 50313 },
-        { "title": "Other", "value": 10175 }
-      ]
-    },
-    "incomeData": {
-      "total": 70013,
-      "subPops": [
-        { "title": "Black", "value": 44680 },
-        { "title": "Asian", "value": 60625 },
-        { "title": "White", "value": 72297 },
-        { "title": "Hispanic", "value": 51351 },
-        { "title": "Other", "value": 68292 }
-      ]
-    }
+  "56": {
+    "title": "Wyoming",
+    "popData": { "total": 562803, "subPops": [4689, 4392, 481842, 50313, 10175] },
+    "incomeData": { "total": 70013, "subPops": [44680, 60625, 72297, 51351, 68292] }
   },
-  {
-    "geo": { "title": "Puerto Rico", "id": 72 },
-    "popData": {
-      "total": 3716727,
-      "subPops": [
-        { "title": "Black", "value": 282162 },
-        { "title": "Asian", "value": 12495 },
-        { "title": "White", "value": 29327 },
-        { "title": "Hispanic", "value": 3675889 },
-        { "title": "Other", "value": 197571 }
-      ]
-    },
-    "incomeData": {
-      "total": 22801,
-      "subPops": [
-        { "title": "Black", "value": 22134 },
-        { "title": "Asian", "value": 19399 },
-        { "title": "White", "value": 31156 },
-        { "title": "Hispanic", "value": 22742 },
-        { "title": "Other", "value": null }
-      ]
-    }
+  "72": {
+    "title": "Puerto Rico",
+    "popData": { "total": 3716727, "subPops": [282162, 12495, 29327, 3675889, 197571] },
+    "incomeData": { "total": 22801, "subPops": [22134, 19399, 31156, 22742, null] }
   }
-]
+}

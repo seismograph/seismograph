@@ -14,13 +14,15 @@
     <link rel="alternate" href="http://blog.url.com/mapping-wealth-race-gender.html"/>
     <id>http://blog.url.com/mapping-wealth-race-gender.html</id>
     <published>2014-11-29T00:00:00Z</published>
-    <updated>2014-11-30T15:50:22-08:00</updated>
+    <updated>2014-12-02T23:29:32-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;div class="mapWrap"&gt;
-	&lt;div class="canvas external" id="wealth-race-gender"&gt;&lt;/div&gt;
-	&lt;span id="wealth-race-gender-bar"&gt;&lt;/span&gt;
+    <content type="html">&lt;div class="nationalCubes external" id="wealth-race-gender"&gt;&lt;/div&gt;
+
+&lt;div class="mapWrap"&gt;
+	&lt;div class="canvas" id="county-wealth-map"&gt;&lt;/div&gt;
+	&lt;span id="county-wealth-map-bar"&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 

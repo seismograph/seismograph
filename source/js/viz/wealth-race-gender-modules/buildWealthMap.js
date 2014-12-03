@@ -27,7 +27,7 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 			}
 		};
 
-		var	buildOrdinalScale = function (domainArr, rangeArr) {
+		var buildOrdinalScale = function (domainArr, rangeArr) {
 			return d3.scale.ordinal().domain(domainArr).range(rangeArr);
 		};
 
@@ -42,7 +42,7 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 			return chart;
 		};
 
-		var	renderBarChart = function (data) {
+		var renderBarChart = function (data) {
 			if (!data) return false;
 			var chart = this,
 			bars = chart.view
@@ -150,45 +150,45 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 			map.renderData = function () {
 				map.states.attr("d", map.path);
 				map.counties
-				.attr({
-					d: map.path,
-					fill: function (d) {
-						return (dataObj[d.id]) ? map.setCountyColor(dataObj[d.id].incomeData.total) : 0;
-					},
-					'fill-opacity': function (d) {
-						return (dataObj[d.id]) ? map.setCountyFillOpacity(dataObj[d.id].incomeData.total) : 0;
-					}
-				})
-				.on('mouseover', function (d) {
-					var data = (dataObj[d.id]) ? dataObj[d.id].incomeData.subPops : false;
-					map.bar.write = map.bar.renderChart(data);
-				})
-				.on('mouseout', function () {
-					clearTimeout(map.bar.write);
-					map.bar.svg.selectAll('rect').transition().ease('linear').attr('height', 0).attr('y', map.bar.h).remove();
-					map.bar.svg.selectAll('text').remove();
-				})
-				.append("title")
-				.text(function (d) {
-					if (!dataObj[d.id]) return false;
-					var getPercent = function (val) {
-						return Math.round((val / dataObj[d.id].popData.total) * 100) + '%';
-					},
-					calculateOther = function () {
-						var totalPop = dataObj[d.id].popData.total,
-						currTotal = _.reduce(dataObj[d.id].popData.subPops, function (m, c, k) {
-							return (k !== 4) ? m + c : m;
-						});
-						return Math.round(((totalPop - currTotal) / totalPop) * 100) + '%';
-					};
-					return dataObj[d.id].title + '\n'
-						+ 'Population: ' + dataObj[d.id].popData.total + '\n'
-						+ ' - Black: ' + getPercent(dataObj[d.id].popData.subPops[0])
-						+ '\n - Asian: ' + getPercent(dataObj[d.id].popData.subPops[1])
-						+ '\n - White: ' + getPercent(dataObj[d.id].popData.subPops[2])
-						+ '\n - Hispanic: ' + getPercent(dataObj[d.id].popData.subPops[3])
-						+ '\n - Other: ' + calculateOther();
-				});
+					.attr({
+						d: map.path,
+						fill: function (d) {
+							return (dataObj[d.id]) ? map.setCountyColor(dataObj[d.id].incomeData.total) : 0;
+						},
+						'fill-opacity': function (d) {
+							return (dataObj[d.id]) ? map.setCountyFillOpacity(dataObj[d.id].incomeData.total) : 0;
+						}
+					})
+					.on('mouseover', function (d) {
+						var data = (dataObj[d.id]) ? dataObj[d.id].incomeData.subPops : false;
+						map.bar.write = map.bar.renderChart(data);
+					})
+					.on('mouseout', function () {
+						clearTimeout(map.bar.write);
+						map.bar.svg.selectAll('rect').transition().ease('linear').attr('height', 0).attr('y', map.bar.h).remove();
+						map.bar.svg.selectAll('text').remove();
+					})
+					.append("title")
+					.text(function (d) {
+						if (!dataObj[d.id]) return false;
+						var getPercent = function (val) {
+							return Math.round((val / dataObj[d.id].popData.total) * 100) + '%';
+						},
+						calculateOther = function () {
+							var totalPop = dataObj[d.id].popData.total,
+							currTotal = _.reduce(dataObj[d.id].popData.subPops, function (m, c, k) {
+								return (k !== 4) ? m + c : m;
+							});
+							return Math.round(((totalPop - currTotal) / totalPop) * 100) + '%';
+						};
+						return dataObj[d.id].title + '\n'
+							+ 'Population: ' + dataObj[d.id].popData.total + '\n'
+							+ ' - Black: ' + getPercent(dataObj[d.id].popData.subPops[0])
+							+ '\n - Asian: ' + getPercent(dataObj[d.id].popData.subPops[1])
+							+ '\n - White: ' + getPercent(dataObj[d.id].popData.subPops[2])
+							+ '\n - Hispanic: ' + getPercent(dataObj[d.id].popData.subPops[3])
+							+ '\n - Other: ' + calculateOther();
+					});
 			};
 
 			map.addUSLeafletOverlay({

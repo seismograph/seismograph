@@ -129,7 +129,7 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 				totalIncomeDomain = (function () {
 					var max = findExtremes(dataObj, 'max', 'incomeData.total'),
 						min = findExtremes(dataObj, 'min', 'incomeData.total'),
-						step = Math.round((max - min) / 5);
+						step = Math.round((max - min) / titles.length);
 					return d3.range(min, max, step);
 				}());
 

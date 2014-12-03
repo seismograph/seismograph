@@ -38,6 +38,7 @@ define(['leaflet', 'd3', './addUSLeafletOverlay'], function (L, d3, addUSLeaflet
 			return {
 				w: dimensions.w,
 				h: dimensions.h,
+				canvas: this.canvas,
 				view: map,
 				svg: svg,
 				g: g

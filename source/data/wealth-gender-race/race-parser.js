@@ -1,5 +1,7 @@
 var input = data.slice(1),
-	output = [],
+	output = {
+		0: ['Black', 'Asian', 'White', 'Hispanic', 'Other']
+	},
 	setNums = function (val) {
 		return val ? parseInt(val, 10) : null;
 	},
@@ -18,63 +20,31 @@ var input = data.slice(1),
 	};
 
 _.each(input, function (arr, i) {
+		var id = (arr.length > 20) ? setNums(arr[19] + arr[20]) : setNums(_.last(arr));
 		arr[6] = buildOther(arr, 6);
 		arr[15] = buildOther(arr, 15);
-		output.push({
-			geo: {
-				title: arr[0],
-				id: (arr.length > 20) ? setNums(arr[19] + arr[20]) : setNums(_.last(arr))
-			},
+		output[id] = {
+			title: arr[0],
 			popData: {
 				total: setNums(arr[1]),
 				subPops: [
-					{
-						title: 'Black',
-						value: setNums(arr[2])
-					},
-					{
-						title: 'Asian',
-						value: setNums(arr[3])
-					},
-					{
-						title: 'White',
-						value: setNums(arr[4])
-					},
-					{
-						title: 'Hispanic',
-						value: setNums(arr[5])
-					},
-					{
-						title: 'Other',
-						value: arr[6]
-					}
+					setNums(arr[2]),
+					setNums(arr[3]),
+					setNums(arr[4]),
+					setNums(arr[5]),
+					arr[6]
 				]
 			},
 			incomeData: {
 				total: setNums(arr[10]),
 				subPops: [
-					{
-						title: 'Black',
-						value: setNums(arr[11])
-					},
-					{
-						title: 'Asian',
-						value: setNums(arr[12])
-					},
-					{
-						title: 'White',
-						value: setNums(arr[13])
-					},
-					{
-						title: 'Hispanic',
-						value: setNums(arr[14])
-					},
-					{
-						title: 'Other',
-						value: arr[15]
-					}
+					setNums(arr[11]),
+					setNums(arr[12]),
+					setNums(arr[13]),
+					setNums(arr[14]),
+					arr[15]
 				]
 			}
-		});
+		};
 	});
 output

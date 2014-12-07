@@ -42,23 +42,23 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 			return chart;
 		};
 
-		var renderBarChart = function (data) {
-			if (!data) return false;
+		var renderBarChart = function (wData, pData) {
+			if (!wData) return false;
 			var chart = this,
 			bars = chart.view
-				.data(data)
+				.data(wData)
 				.enter()
 				.append('rect')
 				.attr({
 					width: function () {
-						return chart.w / data.length - 4;
+						return chart.w / wData.length - 4;
 					},
 					y: function (d) {
 						return (chart.h - chart.scale(d)) - 20;
 					},
 					x: function (d, i) {
-						if (i === 0) return (chart.w / data.length) * i + 2;
-						else return (chart.w / data.length) * i;
+						if (i === 0) return (chart.w / wData.length) * i + 2;
+						else return (chart.w / wData.length) * i;
 					},
 					class: function (d,i) {
 						return chart.titles[i];
@@ -66,16 +66,17 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 				});
 
 			return setTimeout(function () {
-				bars.attr('height', function (d) {
+				bars.attr('height', function (d, i) {
+					if (pData[i] < 500) return 0;
 					return chart.scale(d);
 				});
 
 				chart.svg.selectAll('.wealth text')
-					.data(data)
+					.data(wData)
 					.enter()
 					.append('text')
 					.text(function (d, i) {
-						if (d === null) return '';
+						if (d === null || pData[i] < 500) return '';
 						else {
 							var str = d.toString();
 							return '$' + str.slice(0, -3) + ',' + str.slice(-3);
@@ -83,7 +84,7 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 					})
 					.attr({
 						x: function(d, i) {
-							return i * (chart.w / data.length) + 6;
+							return i * (chart.w / wData.length) + 6;
 						},
 						y: function(d) {
 							return chart.h - chart.scale(d) - 24;
@@ -91,26 +92,6 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 						"class": "wealth",
 						"font-size": "18px",
 						"fill": "#222",
-					});
-
-				chart.svg.selectAll('.race text')
-					.data(data)
-					.enter()
-					.append('text')
-					.text(function (d, i) {
-						return chart.titles[i];
-					})
-					.attr({
-						x: function(d, i) {
-							var space = (chart.titles[i].length > 5) ? 2 : 14;
-							return i * (chart.w / data.length) + space;
-						},
-						y: function(d) {
-							return chart.h - 2;
-						},
-						"class": "race",
-						"font-size": "18px",
-						"fill": "#003366"
 					});
 			}, 100);
 		};
@@ -148,6 +129,25 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 			map.bar.renderChart = renderBarChart;
 
 			map.renderData = function () {
+				map.bar.svg.selectAll('text.race')
+					.data(map.bar.titles)
+					.enter()
+					.append('text')
+					.text(function (d) {
+						return d;
+					})
+					.attr({
+						x: function(d, i) {
+							var space = (d.length > 5) ? 2 : 14;
+							return i * (map.bar.w / map.bar.titles.length) + space;
+						},
+						y: function(d) {
+							return map.bar.h - 2;
+						},
+						"class": "race",
+						"font-size": "18px",
+						"fill": "#003366"
+					});
 				map.states.attr("d", map.path);
 				map.counties
 					.attr({
@@ -160,13 +160,13 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 						}
 					})
 					.on('mouseover', function (d) {
-						var data = (dataObj[d.id]) ? dataObj[d.id].incomeData.subPops : false;
-						map.bar.write = map.bar.renderChart(data);
+						var wData = (dataObj[d.id]) ? dataObj[d.id].incomeData.subPops : false;
+						map.bar.write = map.bar.renderChart(wData, dataObj[d.id].popData.subPops);
 					})
 					.on('mouseout', function () {
 						clearTimeout(map.bar.write);
-						map.bar.svg.selectAll('rect').transition().ease('linear').attr('height', 0).attr('y', map.bar.h).remove();
-						map.bar.svg.selectAll('text').remove();
+						map.bar.svg.selectAll('rect').transition().ease('linear').attr('height', 0).attr('y', map.bar.h - 20).remove();
+						map.bar.svg.selectAll('text.wealth').remove();
 					})
 					.append("title")
 					.text(function (d) {
@@ -182,12 +182,12 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 							return Math.round(((totalPop - currTotal) / totalPop) * 100) + '%';
 						};
 						return dataObj[d.id].title + '\n'
-							+ 'Population: ' + dataObj[d.id].popData.total + '\n'
-							+ ' - Black: ' + getPercent(dataObj[d.id].popData.subPops[0])
-							+ '\n - Asian: ' + getPercent(dataObj[d.id].popData.subPops[1])
-							+ '\n - White: ' + getPercent(dataObj[d.id].popData.subPops[2])
-							+ '\n - Hispanic: ' + getPercent(dataObj[d.id].popData.subPops[3])
-							+ '\n - Other: ' + calculateOther();
+							+ 'Population: ' + dataObj[d.id].popData.total
+							+ '\n - Black: ' + dataObj[d.id].popData.subPops[0]
+							+ '\n - Asian: ' + dataObj[d.id].popData.subPops[1]
+							+ '\n - White: ' + dataObj[d.id].popData.subPops[2]
+							+ '\n - Hispanic: ' + dataObj[d.id].popData.subPops[3]
+							+ '\n - Other: ' + dataObj[d.id].popData.subPops[4];
 					});
 			};
 

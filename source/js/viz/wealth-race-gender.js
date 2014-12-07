@@ -1,4 +1,4 @@
-define(['wealth-race-gender-modules/buildWealthMap', 'wealth-race-gender-modules/buildNationalOverview'], function (buildWealthMap, overviewBlocks) {
+define(['wealth-race-gender-modules/buildWealthMap', 'wealth-race-gender-modules/buildNationalOverview', 'wealth-race-gender-modules/buildStateBar'], function (buildWealthMap, overviewBlocks, buildStateBar) {
 	Object.byString = function(o, s) { // this is used to pass nested object keys around as parameters
     s = s.replace(/\[(\w+)\]/g, '.$1'); // convert indexes to properties
     s = s.replace(/^\./, '');           // strip a leading dot
@@ -24,7 +24,9 @@ define(['wealth-race-gender-modules/buildWealthMap', 'wealth-race-gender-modules
 				specs = $.extend({}, defaults, options);
 
 			if (!specs.dataset) return false;
+			if (specs.cubeOptions) overviewBlocks(specs.dataset, specs.cubeOptions.elementID);
 			if (specs.mapOptions) buildWealthMap(specs.dataset, specs.mapOptions.elementID, specs.mapOptions.baseColor);
+			if (specs.cubeOptions) buildStateBar(specs.dataset, specs.barOptions.elementID);
 		},
 
 		race = function () {
@@ -33,6 +35,12 @@ define(['wealth-race-gender-modules/buildWealthMap', 'wealth-race-gender-modules
 				mapOptions: {
 					elementID: 'county-wealth-map',
 					baseColor: '#36862D'
+				},
+				cubeOptions: {
+					elementID: 'wealth-race-gender'
+				},
+				barOptions: {
+					elementID: 'state-bar-chart'
 				}
 			});
 		};

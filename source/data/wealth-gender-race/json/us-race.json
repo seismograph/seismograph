@@ -2,7 +2,7 @@
   "0": ["Black", "Asian", "White", "Hispanic", "Other"],
   "1": {
     "title": "United States",
-    "popData": { "total": 309138711, "subPops": [38825848, 14859795, 196903968, 50545275, 6538541] },
-    "incomeData": { "total": 64585, "subPops": [42434, 82126, 72674, 43497, 49419] }
+    "popData": { "total": 311536594, "subPops": [39167010, 15231962, 197050418, 51786591, 6636261] },
+    "incomeData": { "total": 64719, "subPops": [42372, 82530, 72986, 43534, 48798] }
   }
 }

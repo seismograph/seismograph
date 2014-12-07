@@ -6,17 +6,18 @@ var input = data.slice(1),
 		return val ? parseInt(val, 10) : null;
 	},
 	buildOther = function (arr, start) {
-		var result = 0;
+		var result = 0,
+			divisor = 0;
 		for (var i = start; i < start + 4; i++) {
-			arr[i] = setNums(arr[i]);
-			if (arr[i] === null) {
-				result = false;
-				break;
-			} else {
-				result += arr[i];
-			}
+			//if (i !== 7 && i !== 8 && i !== 16 && i !== 17) {
+				arr[i] = setNums(arr[i]);
+				if (typeof arr[i] === 'number') {
+					result += arr[i];
+					divisor += 1;
+				}
+			//}
 		}
-		return (result) ? Math.round(result / 4) : null;
+		return (result) ? Math.round(result / divisor) : null;
 	};
 
 _.each(input, function (arr, i) {

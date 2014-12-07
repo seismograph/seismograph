@@ -1,5 +1,12 @@
 @import 'variables.scss';
 @import 'mixins.scss';
+
+$black: #EB6841;
+$white: #00A0B0;
+$asian: #36862D;
+$hispanic: #EDC951;
+$other: #CC333F;
+
 #main {
 	.mapWrap {
 		position: relative;
@@ -39,12 +46,53 @@
 			opacity: 0.7;
 
 			.barChart {				
-				.Black { fill: #4192BA; }
-				.White { fill: #386938; }
-				.Asian { fill: #e84834; }
-				.Hispanic { fill: #e1aa22; }
-				.Other { fill: #777777; }
+				.Black { fill: $black; }
+				.White { fill: $white; }
+				.Asian { fill: $asian; }
+				.Hispanic { fill: $hispanic; }
+				.Other { fill: $other; }
 			}
+		}
+	}
+
+	.nationalCubes {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+
+		rect, path { 
+			fill-opacity: 0.4; 
+			stroke-linejoin: round;
+			stroke-width: 1.5;
+		}
+
+		.legend rect { fill-opacity: 0.4; }
+
+		.base {
+			stroke: #6A4A3C;
+			stroke-width: 1;
+			stroke-opacity: 0.4
+		}
+
+		.Black { 
+			fill: $black;
+			stroke: $black;
+		}
+		.White { 
+			fill: $white; 
+			stroke: $white; 
+		}
+		.Asian { 
+			fill: $asian;
+			stroke: $asian; 
+		}
+		.Hispanic { 
+			fill: $hispanic; 
+			stroke: $hispanic; 
+		}
+		.Other { 
+			fill: $other;
+			stroke: $other; 
 		}
 	}
 }

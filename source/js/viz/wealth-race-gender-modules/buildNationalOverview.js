@@ -12,7 +12,7 @@ define(['d3', 'underscore'], function (d3, _) {
 		var buildLinearScale = function (viz) {
 			return d3.scale.linear()
 							.domain([0, viz.max])
-							.range([0, viz.h * 0.42]);
+							.range([0, viz.h * 0.62]);
 		};
 
 		var sortArrays = function (dataObj) {
@@ -122,7 +122,7 @@ define(['d3', 'underscore'], function (d3, _) {
 
 		var buildLegend = function () {
 			var that = this,
-				top = 30,
+				top = 50,
 				length = 50;
 			this.svg.selectAll('g.legend')
 					.data(this.titles)

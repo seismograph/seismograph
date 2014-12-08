@@ -10,6 +10,7 @@ $other: #CC333F;
 #main {
 	.mapWrap {
 		position: relative;
+		margin: 10px auto 40px;
 
 		#county-wealth-map {
 			cursor: default;
@@ -38,8 +39,8 @@ $other: #CC333F;
 		}
 
 		#county-wealth-map-bar {
-			position: relative;
-			top: -550px;
+			position: absolute;
+			top: 0;
 			display: inline-block;
 			z-index: 1000;
 			background: white;
@@ -57,7 +58,7 @@ $other: #CC333F;
 
 	.nationalCubes {
 		width: 100%;
-		margin: 0 auto;
+		margin: 40px auto 0;
 		text-align: center;
 
 		rect, path { 
@@ -98,6 +99,7 @@ $other: #CC333F;
 
 	.stateBar {
 		width: 100%;
+		margin: 30px auto 50px;
 
 		rect {
 			fill-opacity: 0.4; 

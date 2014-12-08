@@ -38,7 +38,7 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 				class: 'barChart',
 				el: '#' + elID + '-bar'
 			});
-			$('#' + elID + '-bar').css('top', ((map.h - chart.h) / 2 + chart.h) * -1);
+			$('#' + elID + '-bar').css('top', (map.h - chart.h) / 2);
 			return chart;
 		};
 

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <title>Seismograph  - Mapping Wealth By Race in the US</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header>
+      <div class="left clearfix">
+        <div class="logo"></div>
+        <h1><a href="/">Seismograph</a></h1>
+      </div>
+      <div class="right clearfix">
+        <ul>
+          <!-- <li><a href="#">Stories</a></li>
+          <li><a href="#">Connect</a></li> -->
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </div>
+    </header>
+    <div id="main" role="main">
+      <article>
+        
+          <h2>Mapping Wealth By Race in the US</h2>
+        
+        <p>These visualizations attempt to shed light on median wealth distribution in respect to race using data from the Census Bureau's 2013 5 year American Community Survey. More specifically, they're representations of income reported over the past 12 months by family households – including wage/salary income, interest, dividends, net rental income, income from estates and trusts, social security income and all other forms of reported income. What's intriguing about this data is that, though wage and salary gaps might be closing across the country, when we use combined assets as a metric for measuring wealth, some distinct racial discrepancies arise.</p>
+
+<p><strong>National Wealth</strong><br />
+These cubes show wealth by race on a national level. The 'other' category includes Pacific Islanders, Native Americans and what the census calls, people of 'some other race'.</p>
+
+<div class="nationalCubes external" id="wealth-race-gender"></div>
+
+<p><strong>Wealth by County</strong><br />
+This map visualizes wealth on the county level. Counties painted darker shades of green are wealthier in general. Roll over any county to specific wealth data. Also, take note, in some counties the sample sizes for individual races get pretty small, which can create some skewed perspectives.</p>
+
+<div class="mapWrap">
+	<div class="canvas" id="county-wealth-map"></div>
+	<span id="county-wealth-map-bar"></span>
+</div>
+<p></p>
+
+<p><strong>Welath by State</strong><br />
+Finally, the following bar charts show wealth distribution by state in order of wealthiest state to poorest state and wealthiest race to poorest race.</p>
+
+<div class="stateBar" id="state-bar-chart"></div>
+
+
+      </article>
+    </div>
+    <footer></footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script data-main="js/vizlibrary" src="js/require.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-51656807-1', 'seismograph.co');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

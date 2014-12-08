@@ -10,20 +10,32 @@
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Mapping Wealth By Race &amp; Gender in the US</title>
-    <link rel="alternate" href="http://blog.url.com/mapping-wealth-race-gender.html"/>
-    <id>http://blog.url.com/mapping-wealth-race-gender.html</id>
+    <title>Mapping Wealth By Race in the US</title>
+    <link rel="alternate" href="http://blog.url.com/mapping-wealth-race.html"/>
+    <id>http://blog.url.com/mapping-wealth-race.html</id>
     <published>2014-11-29T00:00:00Z</published>
-    <updated>2014-12-07T17:59:40-08:00</updated>
+    <updated>2014-12-08T10:54:47-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;div class="nationalCubes external" style="margin-bottom: 50px;" id="wealth-race-gender"&gt;&lt;/div&gt;
+    <content type="html">&lt;p&gt;These visualizations attempt to shed light on median wealth distribution in respect to race using data from the Census Bureau's 2013 5 year American Community Survey. More specifically, they're representations of income reported over the past 12 months by family households – including wage/salary income, interest, dividends, net rental income, income from estates and trusts, social security income and all other forms of reported income. What's intriguing about this data is that, though wage and salary gaps might be closing across the country, when we use combined assets as a metric for measuring wealth, some distinct racial discrepancies arise.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;National Wealth&lt;/strong&gt;&lt;br /&gt;
+These cubes show wealth by race on a national level. The 'other' category includes Pacific Islanders, Native Americans and what the census calls, people of 'some other race'.&lt;/p&gt;
+
+&lt;div class="nationalCubes external" id="wealth-race-gender"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Wealth by County&lt;/strong&gt;&lt;br /&gt;
+This map visualizes wealth on the county level. Counties painted darker shades of green are wealthier in general. Roll over any county to specific wealth data. Also, take note, in some counties the sample sizes for individual races get pretty small, which can create some skewed perspectives.&lt;/p&gt;
+
 &lt;div class="mapWrap"&gt;
 	&lt;div class="canvas" id="county-wealth-map"&gt;&lt;/div&gt;
 	&lt;span id="county-wealth-map-bar"&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Welath by State&lt;/strong&gt;&lt;br /&gt;
+Finally, the following bar charts show wealth distribution by state in order of wealthiest state to poorest state and wealthiest race to poorest race.&lt;/p&gt;
 
 &lt;div class="stateBar" id="state-bar-chart"&gt;&lt;/div&gt;
 

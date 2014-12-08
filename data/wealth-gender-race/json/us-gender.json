@@ -1,1 +1,8 @@
-[{"geo":{"title":"United States","id":"1"},"popData":{"total":313861723,"subPops":[{"title":"Men","value":154451010},{"title":"Women","value":159410713}]},"incomeData":{"total":26195,"subPops":[{"title":"Men","value":32186},{"title":"Women","valuse":21088}]}}]
+{
+  "0": ["Men", "Women"],
+  "1": {
+    "title": "United States",
+    "popData": { "total": 309138711, "subPops": [152018799, 157119912] },
+    "incomeData": { "total": 26564, "subPops": [32964, 21163] }
+  }
+}

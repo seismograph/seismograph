@@ -1,1 +1,263 @@
-[{"geo":{"title":"Alaska","id":"02"},"popData":{"total":729603,"subPops":[{"title":"Men","value":381019},{"title":"Women","value":348584}]},"incomeData":{"total":30803,"subPops":[{"title":"Men","value":38676},{"title":"Women","valuse":24560}]}},{"geo":{"title":"Alabama","id":"01"},"popData":{"total":4817624,"subPops":[{"title":"Men","value":2334112},{"title":"Women","value":2483512}]},"incomeData":{"total":22291,"subPops":[{"title":"Men","value":29328},{"title":"Women","valuse":17444}]}},{"geo":{"title":"Arkansas","id":"05"},"popData":{"total":2949238,"subPops":[{"title":"Men","value":1448629},{"title":"Women","value":1500609}]},"incomeData":{"total":21555,"subPops":[{"title":"Men","value":26691},{"title":"Women","valuse":17355}]}},{"geo":{"title":"Arizona","id":"04"},"popData":{"total":6548856,"subPops":[{"title":"Men","value":3257091},{"title":"Women","value":3291765}]},"incomeData":{"total":25541,"subPops":[{"title":"Men","value":30742},{"title":"Women","valuse":20937}]}},{"geo":{"title":"California","id":"06"},"popData":{"total":38000360,"subPops":[{"title":"Men","value":18898018},{"title":"Women","value":19102342}]},"incomeData":{"total":26369,"subPops":[{"title":"Men","value":31543},{"title":"Women","valuse":21675}]}},{"geo":{"title":"Colorado","id":"08"},"popData":{"total":5192076,"subPops":[{"title":"Men","value":2605331},{"title":"Women","value":2586745}]},"incomeData":{"total":29806,"subPops":[{"title":"Men","value":36080},{"title":"Women","valuse":23542}]}},{"geo":{"title":"Connecticut","id":"09"},"popData":{"total":3592264,"subPops":[{"title":"Men","value":1750643},{"title":"Women","value":1841621}]},"incomeData":{"total":32068,"subPops":[{"title":"Men","value":41053},{"title":"Women","valuse":25843}]}},{"geo":{"title":"District of Columbia","id":"11"},"popData":{"total":633167,"subPops":[{"title":"Men","value":299718},{"title":"Women","value":333449}]},"incomeData":{"total":40138,"subPops":[{"title":"Men","value":43222},{"title":"Women","valuse":36296}]}},{"geo":{"title":"Delaware","id":"10"},"popData":{"total":916929,"subPops":[{"title":"Men","value":443917},{"title":"Women","value":473012}]},"incomeData":{"total":29380,"subPops":[{"title":"Men","value":35943},{"title":"Women","valuse":23816}]}},{"geo":{"title":"Florida","id":"12"},"popData":{"total":19319031,"subPops":[{"title":"Men","value":9447888},{"title":"Women","value":9871143}]},"incomeData":{"total":23839,"subPops":[{"title":"Men","value":28432},{"title":"Women","valuse":20181}]}},{"geo":{"title":"Georgia","id":"13"},"popData":{"total":9905993,"subPops":[{"title":"Men","value":4839145},{"title":"Women","value":5066848}]},"incomeData":{"total":24983,"subPops":[{"title":"Men","value":30477},{"title":"Women","valuse":20313}]}},{"geo":{"title":"Hawaii","id":"15"},"popData":{"total":1390348,"subPops":[{"title":"Men","value":699864},{"title":"Women","value":690484}]},"incomeData":{"total":30183,"subPops":[{"title":"Men","value":35606},{"title":"Women","valuse":24907}]}},{"geo":{"title":"Iowa","id":"19"},"popData":{"total":3076519,"subPops":[{"title":"Men","value":1524463},{"title":"Women","value":1552056}]},"incomeData":{"total":27053,"subPops":[{"title":"Men","value":34290},{"title":"Women","valuse":21351}]}},{"geo":{"title":"Idaho","id":"16"},"popData":{"total":1597222,"subPops":[{"title":"Men","value":800187},{"title":"Women","value":797035}]},"incomeData":{"total":22653,"subPops":[{"title":"Men","value":29668},{"title":"Women","valuse":17244}]}},{"geo":{"title":"Illinois","id":"17"},"popData":{"total":12868770,"subPops":[{"title":"Men","value":6316147},{"title":"Women","value":6552623}]},"incomeData":{"total":27674,"subPops":[{"title":"Men","value":35197},{"title":"Women","valuse":22013}]}},{"geo":{"title":"Indiana","id":"18"},"popData":{"total":6541673,"subPops":[{"title":"Men","value":3221508},{"title":"Women","value":3320165}]},"incomeData":{"total":25163,"subPops":[{"title":"Men","value":31971},{"title":"Women","valuse":19545}]}},{"geo":{"title":"Kansas","id":"20"},"popData":{"total":2882966,"subPops":[{"title":"Men","value":1433067},{"title":"Women","value":1449899}]},"incomeData":{"total":26562,"subPops":[{"title":"Men","value":33134},{"title":"Women","valuse":20894}]}},{"geo":{"title":"Kentucky","id":"21"},"popData":{"total":4380635,"subPops":[{"title":"Men","value":2154869},{"title":"Women","value":2225766}]},"incomeData":{"total":22283,"subPops":[{"title":"Men","value":28010},{"title":"Women","valuse":17815}]}},{"geo":{"title":"Louisiana","id":"22"},"popData":{"total":4600933,"subPops":[{"title":"Men","value":2250494},{"title":"Women","value":2350439}]},"incomeData":{"total":23193,"subPops":[{"title":"Men","value":31037},{"title":"Women","valuse":17834}]}},{"geo":{"title":"Massachusetts","id":"25"},"popData":{"total":6648138,"subPops":[{"title":"Men","value":3220993},{"title":"Women","value":3427145}]},"incomeData":{"total":31230,"subPops":[{"title":"Men","value":39470},{"title":"Women","valuse":25078}]}},{"geo":{"title":"Maryland","id":"24"},"popData":{"total":5884640,"subPops":[{"title":"Men","value":2849994},{"title":"Women","value":3034646}]},"incomeData":{"total":35125,"subPops":[{"title":"Men","value":41659},{"title":"Women","valuse":29622}]}},{"geo":{"title":"Maine","id":"23"},"popData":{"total":1328217,"subPops":[{"title":"Men","value":650625},{"title":"Women","value":677592}]},"incomeData":{"total":24408,"subPops":[{"title":"Men","value":30342},{"title":"Women","valuse":19884}]}},{"geo":{"title":"Michigan","id":"26"},"popData":{"total":9884242,"subPops":[{"title":"Men","value":4850923},{"title":"Women","value":5033319}]},"incomeData":{"total":24407,"subPops":[{"title":"Men","value":31373},{"title":"Women","valuse":19269}]}},{"geo":{"title":"Minnesota","id":"27"},"popData":{"total":5382376,"subPops":[{"title":"Men","value":2673316},{"title":"Women","value":2709060}]},"incomeData":{"total":30207,"subPops":[{"title":"Men","value":36841},{"title":"Women","valuse":23829}]}},{"geo":{"title":"Missouri","id":"29"},"popData":{"total":6026255,"subPops":[{"title":"Men","value":2953597},{"title":"Women","value":3072658}]},"incomeData":{"total":24574,"subPops":[{"title":"Men","value":30673},{"title":"Women","valuse":19942}]}},{"geo":{"title":"Mississippi","id":"28"},"popData":{"total":2985181,"subPops":[{"title":"Men","value":1450530},{"title":"Women","value":1534651}]},"incomeData":{"total":20720,"subPops":[{"title":"Men","value":26116},{"title":"Women","valuse":16642}]}},{"geo":{"title":"Montana","id":"30"},"popData":{"total":1006086,"subPops":[{"title":"Men","value":504930},{"title":"Women","value":501156}]},"incomeData":{"total":23708,"subPops":[{"title":"Men","value":30306},{"title":"Women","valuse":18974}]}},{"geo":{"title":"North Carolina","id":"37"},"popData":{"total":9749266,"subPops":[{"title":"Men","value":4748161},{"title":"Women","value":5001105}]},"incomeData":{"total":24281,"subPops":[{"title":"Men","value":29718},{"title":"Women","valuse":20023}]}},{"geo":{"title":"North Dakota","id":"38"},"popData":{"total":703203,"subPops":[{"title":"Men","value":357694},{"title":"Women","value":345509}]},"incomeData":{"total":29064,"subPops":[{"title":"Men","value":37450},{"title":"Women","valuse":21927}]}},{"geo":{"title":"Nebraska","id":"31"},"popData":{"total":1855209,"subPops":[{"title":"Men","value":921132},{"title":"Women","value":934077}]},"incomeData":{"total":26631,"subPops":[{"title":"Men","value":33375},{"title":"Women","valuse":20983}]}},{"geo":{"title":"New Hampshire","id":"33"},"popData":{"total":1321050,"subPops":[{"title":"Men","value":651675},{"title":"Women","value":669375}]},"incomeData":{"total":30854,"subPops":[{"title":"Men","value":38611},{"title":"Women","valuse":24110}]}},{"geo":{"title":"New Jersey","id":"34"},"popData":{"total":8867909,"subPops":[{"title":"Men","value":4325564},{"title":"Women","value":4542345}]},"incomeData":{"total":32362,"subPops":[{"title":"Men","value":41405},{"title":"Women","valuse":25995}]}},{"geo":{"title":"New Mexico","id":"35"},"popData":{"total":2082250,"subPops":[{"title":"Men","value":1032726},{"title":"Women","value":1049524}]},"incomeData":{"total":23045,"subPops":[{"title":"Men","value":28134},{"title":"Women","valuse":18865}]}},{"geo":{"title":"Nevada","id":"32"},"popData":{"total":2754148,"subPops":[{"title":"Men","value":1387726},{"title":"Women","value":1366422}]},"incomeData":{"total":26599,"subPops":[{"title":"Men","value":31122},{"title":"Women","valuse":22340}]}},{"geo":{"title":"New York","id":"36"},"popData":{"total":19576660,"subPops":[{"title":"Men","value":9494977},{"title":"Women","value":10081683}]},"incomeData":{"total":28598,"subPops":[{"title":"Men","value":34749},{"title":"Women","valuse":23493}]}},{"geo":{"title":"Ohio","id":"39"},"popData":{"total":11557868,"subPops":[{"title":"Men","value":5651126},{"title":"Women","value":5906742}]},"incomeData":{"total":25164,"subPops":[{"title":"Men","value":31791},{"title":"Women","valuse":20025}]}},{"geo":{"title":"Oklahoma","id":"40"},"popData":{"total":3817296,"subPops":[{"title":"Men","value":1889566},{"title":"Women","value":1927730}]},"incomeData":{"total":23886,"subPops":[{"title":"Men","value":30404},{"title":"Women","valuse":18978}]}},{"geo":{"title":"Oregon","id":"41"},"popData":{"total":3899266,"subPops":[{"title":"Men","value":1929249},{"title":"Women","value":1970017}]},"incomeData":{"total":24681,"subPops":[{"title":"Men","value":30785},{"title":"Women","valuse":19991}]}},{"geo":{"title":"Pennsylvania","id":"42"},"popData":{"total":12759859,"subPops":[{"title":"Men","value":6231252},{"title":"Women","value":6528607}]},"incomeData":{"total":26197,"subPops":[{"title":"Men","value":33458},{"title":"Women","valuse":20585}]}},{"geo":{"title":"Puerto Rico","id":"72"},"popData":{"total":3651070,"subPops":[{"title":"Men","value":1747778},{"title":"Women","value":1903292}]},"incomeData":{"total":12424,"subPops":[{"title":"Men","value":13946},{"title":"Women","valuse":11019}]}},{"geo":{"title":"Rhode Island","id":"44"},"popData":{"total":1050722,"subPops":[{"title":"Men","value":508429},{"title":"Women","value":542293}]},"incomeData":{"total":27527,"subPops":[{"title":"Men","value":35040},{"title":"Women","valuse":22170}]}},{"geo":{"title":"South Carolina","id":"45"},"popData":{"total":4723923,"subPops":[{"title":"Men","value":2296778},{"title":"Women","value":2427145}]},"incomeData":{"total":22983,"subPops":[{"title":"Men","value":29116},{"title":"Women","valuse":18787}]}},{"geo":{"title":"South Dakota","id":"46"},"popData":{"total":834236,"subPops":[{"title":"Men","value":419141},{"title":"Women","value":415095}]},"incomeData":{"total":26091,"subPops":[{"title":"Men","value":32287},{"title":"Women","valuse":20913}]}},{"geo":{"title":"Tennessee","id":"47"},"popData":{"total":6449754,"subPops":[{"title":"Men","value":3144678},{"title":"Women","value":3305076}]},"incomeData":{"total":22940,"subPops":[{"title":"Men","value":28811},{"title":"Women","valuse":18586}]}},{"geo":{"title":"Texas","id":"48"},"popData":{"total":26049971,"subPops":[{"title":"Men","value":12941366},{"title":"Women","value":13108605}]},"incomeData":{"total":25613,"subPops":[{"title":"Men","value":31462},{"title":"Women","valuse":20395}]}},{"geo":{"title":"Utah","id":"49"},"popData":{"total":2856839,"subPops":[{"title":"Men","value":1436256},{"title":"Women","value":1420583}]},"incomeData":{"total":25234,"subPops":[{"title":"Men","value":34657},{"title":"Women","valuse":17803}]}},{"geo":{"title":"Virginia","id":"51"},"popData":{"total":8184299,"subPops":[{"title":"Men","value":4021782},{"title":"Women","value":4162517}]},"incomeData":{"total":30525,"subPops":[{"title":"Men","value":38020},{"title":"Women","valuse":24099}]}},{"geo":{"title":"Vermont","id":"50"},"popData":{"total":626303,"subPops":[{"title":"Men","value":308931},{"title":"Women","value":317372}]},"incomeData":{"total":26797,"subPops":[{"title":"Men","value":31949},{"title":"Women","valuse":22289}]}},{"geo":{"title":"Washington","id":"53"},"popData":{"total":6896071,"subPops":[{"title":"Men","value":3441158},{"title":"Women","value":3454913}]},"incomeData":{"total":29548,"subPops":[{"title":"Men","value":37208},{"title":"Women","valuse":22515}]}},{"geo":{"title":"Wisconsin","id":"55"},"popData":{"total":5725352,"subPops":[{"title":"Men","value":2842261},{"title":"Women","value":2883091}]},"incomeData":{"total":26883,"subPops":[{"title":"Men","value":33411},{"title":"Women","valuse":21568}]}},{"geo":{"title":"West Virginia","id":"54"},"popData":{"total":1855392,"subPops":[{"title":"Men","value":914751},{"title":"Women","value":940641}]},"incomeData":{"total":21649,"subPops":[{"title":"Men","value":28194},{"title":"Women","valuse":16757}]}},{"geo":{"title":"Wyoming","id":"56"},"popData":{"total":575535,"subPops":[{"title":"Men","value":293613},{"title":"Women","value":281922}]},"incomeData":{"total":28524,"subPops":[{"title":"Men","value":37958},{"title":"Women","valuse":21335}]}}]
+{
+  "0": ["Men", "Women"],
+  "1": {
+    "title": "AL",
+    "popData": { "total": 4777326, "subPops": [2317520, 2459806] },
+    "incomeData": { "total": 22318, "subPops": [29556, 17432] }
+  },
+  "2": {
+    "title": "AK",
+    "popData": { "total": 711139, "subPops": [370127, 341012] },
+    "incomeData": { "total": 31005, "subPops": [39792, 24258] }
+  },
+  "4": {
+    "title": "AZ",
+    "popData": { "total": 6410979, "subPops": [3187926, 3223053] },
+    "incomeData": { "total": 26388, "subPops": [31794, 21357] }
+  },
+  "5": {
+    "title": "AR",
+    "popData": { "total": 2916372, "subPops": [1431252, 1485120] },
+    "incomeData": { "total": 21604, "subPops": [26978, 17171] }
+  },
+  "6": {
+    "title": "CA",
+    "popData": { "total": 37325068, "subPops": [18561020, 18764048] },
+    "incomeData": { "total": 27129, "subPops": [32630, 22057] }
+  },
+  "8": {
+    "title": "CO",
+    "popData": { "total": 5042853, "subPops": [2529614, 2513239] },
+    "incomeData": { "total": 30084, "subPops": [36651, 23759] }
+  },
+  "9": {
+    "title": "CT",
+    "popData": { "total": 3572213, "subPops": [1739522, 1832691] },
+    "incomeData": { "total": 32842, "subPops": [42570, 26149] }
+  },
+  "10": {
+    "title": "DE",
+    "popData": { "total": 900131, "subPops": [436338, 463793] },
+    "incomeData": { "total": 29752, "subPops": [36587, 24136] }
+  },
+  "11": {
+    "title": "DC",
+    "popData": { "total": 605759, "subPops": [286427, 319332] },
+    "incomeData": { "total": 38230, "subPops": [42189, 35105] }
+  },
+  "12": {
+    "title": "FL",
+    "popData": { "total": 18885152, "subPops": [9232292, 9652860] },
+    "incomeData": { "total": 24683, "subPops": [29829, 20400] }
+  },
+  "13": {
+    "title": "GA",
+    "popData": { "total": 9714569, "subPops": [4747484, 4967085] },
+    "incomeData": { "total": 25705, "subPops": [31350, 20745] }
+  },
+  "15": {
+    "title": "HI",
+    "popData": { "total": 1362730, "subPops": [683498, 679232] },
+    "incomeData": { "total": 30374, "subPops": [36075, 25453] }
+  },
+  "16": {
+    "title": "ID",
+    "popData": { "total": 1567803, "subPops": [785954, 781849] },
+    "incomeData": { "total": 22989, "subPops": [30289, 17019] }
+  },
+  "17": {
+    "title": "IL",
+    "popData": { "total": 12823860, "subPops": [6291373, 6532487] },
+    "incomeData": { "total": 28209, "subPops": [35890, 22118] }
+  },
+  "18": {
+    "title": "IN",
+    "popData": { "total": 6485530, "subPops": [3192018, 3293512] },
+    "incomeData": { "total": 25407, "subPops": [32476, 19645] }
+  },
+  "19": {
+    "title": "IA",
+    "popData": { "total": 3047646, "subPops": [1507335, 1540311] },
+    "incomeData": { "total": 26622, "subPops": [33600, 20990] }
+  },
+  "20": {
+    "title": "KS",
+    "popData": { "total": 2851183, "subPops": [1414881, 1436302] },
+    "incomeData": { "total": 26646, "subPops": [33604, 20847] }
+  },
+  "21": {
+    "title": "KY",
+    "popData": { "total": 4340167, "subPops": [2134355, 2205812] },
+    "incomeData": { "total": 22257, "subPops": [28132, 17615] }
+  },
+  "22": {
+    "title": "LA",
+    "popData": { "total": 4529605, "subPops": [2215673, 2313932] },
+    "incomeData": { "total": 23227, "subPops": [31211, 17835] }
+  },
+  "23": {
+    "title": "ME",
+    "popData": { "total": 1329084, "subPops": [650219, 678865] },
+    "incomeData": { "total": 24627, "subPops": [30789, 19896] }
+  },
+  "24": {
+    "title": "MD",
+    "popData": { "total": 5785496, "subPops": [2798875, 2986621] },
+    "incomeData": { "total": 35444, "subPops": [42810, 29711] }
+  },
+  "25": {
+    "title": "MA",
+    "popData": { "total": 6560595, "subPops": [3174988, 3385607] },
+    "incomeData": { "total": 31617, "subPops": [40405, 25237] }
+  },
+  "26": {
+    "title": "MI",
+    "popData": { "total": 9897264, "subPops": [4855361, 5041903] },
+    "incomeData": { "total": 24769, "subPops": [31960, 19242] }
+  },
+  "27": {
+    "title": "MN",
+    "popData": { "total": 5313081, "subPops": [2638499, 2674582] },
+    "incomeData": { "total": 30070, "subPops": [37145, 23547] }
+  },
+  "28": {
+    "title": "MS",
+    "popData": { "total": 2967620, "subPops": [1439787, 1527833] },
+    "incomeData": { "total": 20784, "subPops": [26610, 16561] }
+  },
+  "29": {
+    "title": "MO",
+    "popData": { "total": 5982413, "subPops": [2929988, 3052425] },
+    "incomeData": { "total": 24955, "subPops": [31062, 20010] }
+  },
+  "30": {
+    "title": "MT",
+    "popData": { "total": 990785, "subPops": [497141, 493644] },
+    "incomeData": { "total": 23906, "subPops": [30661, 18776] }
+  },
+  "31": {
+    "title": "NE",
+    "popData": { "total": 1827306, "subPops": [906143, 921163] },
+    "incomeData": { "total": 26465, "subPops": [33063, 20649] }
+  },
+  "32": {
+    "title": "NV",
+    "popData": { "total": 2704204, "subPops": [1365496, 1338708] },
+    "incomeData": { "total": 28272, "subPops": [32952, 23626] }
+  },
+  "33": {
+    "title": "NH",
+    "popData": { "total": 1317474, "subPops": [650048, 667426] },
+    "incomeData": { "total": 31145, "subPops": [39634, 24221] }
+  },
+  "34": {
+    "title": "NJ",
+    "popData": { "total": 8793888, "subPops": [4283189, 4510699] },
+    "incomeData": { "total": 33498, "subPops": [42832, 26473] }
+  },
+  "35": {
+    "title": "NM",
+    "popData": { "total": 2055287, "subPops": [1015710, 1039577] },
+    "incomeData": { "total": 23655, "subPops": [28925, 19142] }
+  },
+  "36": {
+    "title": "NY",
+    "popData": { "total": 19398125, "subPops": [9391875, 10006250] },
+    "incomeData": { "total": 29001, "subPops": [35361, 23569] }
+  },
+  "37": {
+    "title": "NC",
+    "popData": { "total": 9544249, "subPops": [4649769, 4894480] },
+    "incomeData": { "total": 24828, "subPops": [30297, 20220] }
+  },
+  "38": {
+    "title": "ND",
+    "popData": { "total": 676253, "subPops": [342030, 334223] },
+    "incomeData": { "total": 27090, "subPops": [35331, 20660] }
+  },
+  "39": {
+    "title": "OH",
+    "popData": { "total": 11533561, "subPops": [5630373, 5903188] },
+    "incomeData": { "total": 25470, "subPops": [32301, 20004] }
+  },
+  "40": {
+    "title": "OK",
+    "popData": { "total": 3749005, "subPops": [1855637, 1893368] },
+    "incomeData": { "total": 23805, "subPops": [30449, 18649] }
+  },
+  "41": {
+    "title": "OR",
+    "popData": { "total": 3836628, "subPops": [1899186, 1937442] },
+    "incomeData": { "total": 25322, "subPops": [31612, 20186] }
+  },
+  "42": {
+    "title": "PA",
+    "popData": { "total": 12699589, "subPops": [6190405, 6509184] },
+    "incomeData": { "total": 26248, "subPops": [33760, 20388] }
+  },
+  "44": {
+    "title": "RI",
+    "popData": { "total": 1052471, "subPops": [508521, 543950] },
+    "incomeData": { "total": 27469, "subPops": [34999, 22147] }
+  },
+  "45": {
+    "title": "SC",
+    "popData": { "total": 4630351, "subPops": [2251898, 2378453] },
+    "incomeData": { "total": 23293, "subPops": [29623, 18884] }
+  },
+  "46": {
+    "title": "SD",
+    "popData": { "total": 815871, "subPops": [409334, 406537] },
+    "incomeData": { "total": 25803, "subPops": [31647, 20777] }
+  },
+  "47": {
+    "title": "TN",
+    "popData": { "total": 6353226, "subPops": [3097568, 3255658] },
+    "incomeData": { "total": 23216, "subPops": [29299, 18588] }
+  },
+  "48": {
+    "title": "TX",
+    "popData": { "total": 25208897, "subPops": [12509812, 12699085] },
+    "incomeData": { "total": 25734, "subPops": [31545, 20282] }
+  },
+  "49": {
+    "title": "UT",
+    "popData": { "total": 2766233, "subPops": [1389986, 1376247] },
+    "incomeData": { "total": 25726, "subPops": [35147, 17879] }
+  },
+  "50": {
+    "title": "VT",
+    "popData": { "total": 625498, "subPops": [308429, 317069] },
+    "incomeData": { "total": 26761, "subPops": [32386, 22073] }
+  },
+  "51": {
+    "title": "VA",
+    "popData": { "total": 8014955, "subPops": [3933820, 4081135] },
+    "incomeData": { "total": 30903, "subPops": [39055, 24235] }
+  },
+  "53": {
+    "title": "WA",
+    "popData": { "total": 6738714, "subPops": [3360046, 3378668] },
+    "incomeData": { "total": 30117, "subPops": [38487, 22679] }
+  },
+  "54": {
+    "title": "WV",
+    "popData": { "total": 1850481, "subPops": [911142, 939339] },
+    "incomeData": { "total": 21512, "subPops": [27997, 16517] }
+  },
+  "55": {
+    "title": "WI",
+    "popData": { "total": 5687219, "subPops": [2822271, 2864948] },
+    "incomeData": { "total": 27171, "subPops": [34367, 21577] }
+  },
+  "56": {
+    "title": "WY",
+    "popData": { "total": 562803, "subPops": [286644, 276159] },
+    "incomeData": { "total": 28276, "subPops": [38896, 20872] }
+  },
+  "72": {
+    "title": "Puerto Rico",
+    "popData": { "total": 3716727, "subPops": [1780705, 1936022] },
+    "incomeData": { "total": 12277, "subPops": [13656, 10784] }
+  }
+}

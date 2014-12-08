@@ -95,4 +95,35 @@ $other: #CC333F;
 			stroke: $other; 
 		}
 	}
+
+	.stateBar {
+		width: 100%;
+
+		rect {
+			fill-opacity: 0.4; 
+			stroke-linejoin: round;
+			stroke-width: 1;
+		}
+
+		.Black { 
+			fill: $black;
+			stroke: $black;
+		}
+		.White { 
+			fill: $white; 
+			stroke: $white; 
+		}
+		.Asian { 
+			fill: $asian;
+			stroke: $asian; 
+		}
+		.Hispanic { 
+			fill: $hispanic; 
+			stroke: $hispanic; 
+		}
+		.Other { 
+			fill: $other;
+			stroke: $other; 
+		}
+	}
 }

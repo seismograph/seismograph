@@ -1,257 +1,257 @@
 {
   "0": ["Black", "Asian", "White", "Hispanic", "Other"],
   "1": {
-    "title": "Alabama",
+    "title": "AL",
     "popData": { "total": 4799277, "subPops": [1262152, 56831, 3205483, 188294, 38527] },
     "incomeData": { "total": 54362, "subPops": [35331, 71215, 62537, 34724, 54581] }
   },
   "2": {
-    "title": "Alaska",
+    "title": "AK",
     "popData": { "total": 720316, "subPops": [25033, 39200, 457176, 42832, 43611] },
     "incomeData": { "total": 82870, "subPops": [68178, 69181, 91560, 68658, 57231] }
   },
   "4": {
-    "title": "Arizona",
+    "title": "AZ",
     "popData": { "total": 6479703, "subPops": [270027, 182953, 3716047, 1935948, 223746] },
     "incomeData": { "total": 58897, "subPops": [48004, 77940, 69290, 39736, 43773] }
   },
   "5": {
-    "title": "Arkansas",
+    "title": "AR",
     "popData": { "total": 2933369, "subPops": [454903, 37776, 2176057, 192264, 36311] },
     "incomeData": { "total": 50759, "subPops": [31258, 61189, 55655, 33959, 38819] }
   },
   "6": {
-    "title": "California",
+    "title": "CA",
     "popData": { "total": 37659181, "subPops": [2255372, 5005635, 14937880, 14270345, 1732752] },
     "incomeData": { "total": 69661, "subPops": [52655, 86542, 90134, 47116, 56307] }
   },
   "8": {
-    "title": "Colorado",
+    "title": "CO",
     "popData": { "total": 5119329, "subPops": [203755, 141719, 3567335, 1064009, 118190] },
     "incomeData": { "total": 72687, "subPops": [48356, 76025, 81660, 43822, 51255] }
   },
   "9": {
-    "title": "Connecticut",
+    "title": "CT",
     "popData": { "total": 3583561, "subPops": [361668, 141709, 2526401, 496939, 71908] },
     "incomeData": { "total": 87245, "subPops": [51187, 97357, 99640, 42290, 50060] }
   },
   "10": {
-    "title": "Delaware",
+    "title": "DE",
     "popData": { "total": 908446, "subPops": [194964, 30422, 588561, 76107, 11897] },
     "incomeData": { "total": 71811, "subPops": [52781, 100590, 79924, 43517, 44705] }
   },
   "11": {
-    "title": "District of Columbia",
+    "title": "DC",
     "popData": { "total": 619371, "subPops": [310530, 21845, 217331, 59479, 9714] },
     "incomeData": { "total": 79665, "subPops": [47016, 113750, 185702, 56824, 72379] }
   },
   "12": {
-    "title": "Florida",
+    "title": "FL",
     "popData": { "total": 19091156, "subPops": [3056152, 475905, 10926354, 4369920, 247645] },
     "incomeData": { "total": 56738, "subPops": [39580, 68080, 65393, 44012, 48249] }
   },
   "13": {
-    "title": "Georgia",
+    "title": "GA",
     "popData": { "total": 9810417, "subPops": [3010984, 330392, 5435939, 875849, 130016] },
     "incomeData": { "total": 58755, "subPops": [42081, 68664, 70053, 35914, 45931] }
   },
   "15": {
-    "title": "Hawaii",
+    "title": "HI",
     "popData": { "total": 1376298, "subPops": [24532, 526743, 314177, 128171, 120134] },
     "incomeData": { "total": 79963, "subPops": [70008, 86002, 83816, 59782, 66353] }
   },
   "16": {
-    "title": "Idaho",
+    "title": "ID",
     "popData": { "total": 1583364, "subPops": [8957, 20141, 1324568, 180901, 24644] },
     "incomeData": { "total": 55905, "subPops": [40490, 61127, 58367, 37548, 40200] }
   },
   "17": {
-    "title": "Illinois",
+    "title": "IL",
     "popData": { "total": 12848554, "subPops": [1851524, 609923, 8126804, 2060706, 266549] },
     "incomeData": { "total": 70344, "subPops": [41573, 86991, 80237, 47515, 56294] }
   },
   "18": {
-    "title": "Indiana",
+    "title": "IN",
     "popData": { "total": 6514861, "subPops": [592954, 107563, 5286405, 400788, 75932] },
     "incomeData": { "total": 59911, "subPops": [35789, 68125, 63271, 39442, 38240] }
   },
   "19": {
-    "title": "Iowa",
+    "title": "IA",
     "popData": { "total": 3062553, "subPops": [91754, 55878, 2702157, 157711, 28021] },
     "incomeData": { "total": 65802, "subPops": [30482, 67296, 67881, 40818, 42635] }
   },
   "20": {
-    "title": "Kansas",
+    "title": "KS",
     "popData": { "total": 2868107, "subPops": [164299, 70408, 2230704, 308122, 46032] },
     "incomeData": { "total": 65069, "subPops": [42745, 71352, 69699, 41104, 49612] }
   },
   "21": {
-    "title": "Kentucky",
+    "title": "KY",
     "popData": { "total": 4361333, "subPops": [341576, 51411, 3753192, 136340, 33333] },
     "incomeData": { "total": 54279, "subPops": [36291, 73411, 56340, 34178, 40348] }
   },
   "22": {
-    "title": "Louisiana",
+    "title": "LA",
     "popData": { "total": 4567968, "subPops": [1463345, 73460, 2742184, 202145, 39232] },
     "incomeData": { "total": 56288, "subPops": [33739, 59752, 69569, 49209, 51995] }
   },
   "23": {
-    "title": "Maine",
+    "title": "ME",
     "popData": { "total": 1328320, "subPops": [14637, 14391, 1251964, 17946, 8811] },
     "incomeData": { "total": 61107, "subPops": [30823, 59246, 61818, 41444, 32003] }
   },
   "24": {
-    "title": "Maryland",
+    "title": "MD",
     "popData": { "total": 5834299, "subPops": [1717582, 332620, 3158454, 493310, 94464] },
     "incomeData": { "total": 88738, "subPops": [68734, 105110, 101769, 60499, 67713] }
   },
   "25": {
-    "title": "Massachusetts",
+    "title": "MA",
     "popData": { "total": 6605058, "subPops": [454887, 368178, 5000518, 655863, 115861] },
     "incomeData": { "total": 84900, "subPops": [50139, 90723, 93432, 36561, 38874] }
   },
   "26": {
-    "title": "Michigan",
+    "title": "MI",
     "popData": { "total": 9886095, "subPops": [1385154, 251175, 7546578, 447594, 102189] },
     "incomeData": { "total": 60793, "subPops": [35389, 85754, 65248, 40335, 49132] }
   },
   "27": {
-    "title": "Minnesota",
+    "title": "MN",
     "popData": { "total": 5347740, "subPops": [279944, 222761, 4416170, 257144, 67261] },
     "incomeData": { "total": 74683, "subPops": [33780, 71553, 78646, 40239, 39328] }
   },
   "28": {
-    "title": "Mississippi",
+    "title": "MS",
     "popData": { "total": 2976872, "subPops": [1106982, 27646, 1720552, 81433, 18120] },
     "incomeData": { "total": 48471, "subPops": [30705, 62648, 59888, 38709, 40107] }
   },
   "29": {
-    "title": "Missouri",
+    "title": "MO",
     "popData": { "total": 6007182, "subPops": [691128, 98962, 4847928, 219705, 58110] },
     "incomeData": { "total": 59527, "subPops": [38239, 76817, 62810, 40476, 41986] }
   },
   "30": {
-    "title": "Montana",
+    "title": "MT",
     "popData": { "total": 998554, "subPops": [4038, 6246, 873108, 30490, 23810] },
     "incomeData": { "total": 59743, "subPops": [47004, 61774, 61650, 42305, 41993] }
   },
   "31": {
-    "title": "Nebraska",
+    "title": "NE",
     "popData": { "total": 1841625, "subPops": [84228, 34144, 1503898, 173903, 24735] },
     "incomeData": { "total": 65328, "subPops": [33094, 61713, 69913, 38387, 37826] }
   },
   "32": {
-    "title": "Nevada",
+    "title": "NV",
     "popData": { "total": 2730066, "subPops": [224424, 202157, 1457795, 734097, 88669] },
     "incomeData": { "total": 61359, "subPops": [45247, 68583, 71286, 43567, 48220] }
   },
   "33": {
-    "title": "New Hampshire",
+    "title": "NH",
     "popData": { "total": 1319171, "subPops": [16011, 29337, 1212922, 38817, 8355] },
     "incomeData": { "total": 79886, "subPops": [50546, 85766, 80688, 52702, 68803] }
   },
   "34": {
-    "title": "New Jersey",
+    "title": "NJ",
     "popData": { "total": 8832406, "subPops": [1197753, 756668, 5170824, 1603510, 192300] },
     "incomeData": { "total": 87347, "subPops": [56599, 111345, 101549, 50802, 56423] }
   },
   "35": {
-    "title": "New Mexico",
+    "title": "NM",
     "popData": { "total": 2069706, "subPops": [42196, 28034, 828574, 966268, 122097] },
     "incomeData": { "total": 54513, "subPops": [50328, 70775, 70924, 41551, 44280] }
   },
   "36": {
-    "title": "New York",
+    "title": "NY",
     "popData": { "total": 19487053, "subPops": [3042152, 1479326, 11264136, 3488083, 546562] },
     "incomeData": { "total": 70670, "subPops": [50770, 66654, 84273, 43188, 47435] }
   },
   "37": {
-    "title": "North Carolina",
+    "title": "NC",
     "popData": { "total": 9651380, "subPops": [2068726, 221392, 6261792, 824868, 158393] },
     "incomeData": { "total": 56928, "subPops": [38551, 75297, 65821, 33249, 41453] }
   },
   "38": {
-    "title": "North Dakota",
+    "title": "ND",
     "popData": { "total": 689781, "subPops": [9273, 7362, 608963, 16054, 13762] },
     "incomeData": { "total": 70767, "subPops": [31118, 52083, 73476, 44502, 51521] }
   },
   "39": {
-    "title": "Ohio",
+    "title": "OH",
     "popData": { "total": 11549590, "subPops": [1402897, 201394, 9336539, 367394, 93967] },
     "incomeData": { "total": 61371, "subPops": [34937, 84181, 65249, 39158, 44653] }
   },
   "40": {
-    "title": "Oklahoma",
+    "title": "OK",
     "popData": { "total": 3785742, "subPops": [273421, 68161, 2582335, 345139, 165138] },
     "incomeData": { "total": 56464, "subPops": [36591, 60979, 61873, 37453, 41385] }
   },
   "41": {
-    "title": "Oregon",
+    "title": "OR",
     "popData": { "total": 3868721, "subPops": [70328, 147986, 3018414, 461901, 88315] },
     "incomeData": { "total": 61609, "subPops": [39839, 71119, 65113, 38980, 43000] }
   },
   "42": {
-    "title": "Pennsylvania",
+    "title": "PA",
     "popData": { "total": 12731381, "subPops": [1385799, 363967, 10057586, 753701, 128546] },
     "incomeData": { "total": 66646, "subPops": [40309, 76992, 71185, 36058, 41324] }
   },
   "44": {
-    "title": "Rhode Island",
+    "title": "RI",
     "popData": { "total": 1051695, "subPops": [66569, 32384, 796516, 135317, 24287] },
     "incomeData": { "total": 72717, "subPops": [39657, 68088, 81528, 33398, 35403] }
   },
   "45": {
-    "title": "South Carolina",
+    "title": "SC",
     "popData": { "total": 4679602, "subPops": [1298534, 61097, 2995377, 241448, 43956] },
     "incomeData": { "total": 55058, "subPops": [35056, 64799, 64547, 35933, 35543] }
   },
   "46": {
-    "title": "South Dakota",
+    "title": "SD",
     "popData": { "total": 825198, "subPops": [11531, 8597, 693613, 24598, 24601] },
     "incomeData": { "total": 63195, "subPops": [34303, 48896, 66792, 37195, 39690] }
   },
   "47": {
-    "title": "Tennessee",
+    "title": "TN",
     "popData": { "total": 6402387, "subPops": [1073534, 95801, 4820109, 300159, 56510] },
     "incomeData": { "total": 54779, "subPops": [38727, 73340, 58908, 34330, 41616] }
   },
   "48": {
-    "title": "Texas",
+    "title": "TX",
     "popData": { "total": 25639373, "subPops": [3030970, 1019260, 11488269, 9717727, 628511] },
     "incomeData": { "total": 61066, "subPops": [45444, 82690, 80495, 41536, 52730] }
   },
   "49": {
-    "title": "Utah",
+    "title": "UT",
     "popData": { "total": 2813673, "subPops": [31101, 58150, 2253922, 368552, 59239] },
     "incomeData": { "total": 66646, "subPops": [49766, 65505, 70828, 43004, 43970] }
   },
   "50": {
-    "title": "Vermont",
+    "title": "VT",
     "popData": { "total": 625904, "subPops": [6139, 7922, 588820, 9803, 3995] },
     "incomeData": { "total": 68111, "subPops": [52500, 51250, 68776, 66953, 56670] }
   },
   "51": {
-    "title": "Virginia",
+    "title": "VA",
     "popData": { "total": 8100653, "subPops": [1568021, 457792, 5211870, 659599, 111941] },
     "incomeData": { "total": 76754, "subPops": [52123, 102319, 84319, 59036, 68889] }
   },
   "53": {
-    "title": "Washington",
+    "title": "WA",
     "popData": { "total": 6819579, "subPops": [245041, 498941, 4904925, 783693, 181165] },
     "incomeData": { "total": 72168, "subPops": [49180, 82533, 76829, 42037, 49906] }
   },
   "54": {
-    "title": "West Virginia",
+    "title": "WV",
     "popData": { "total": 1853619, "subPops": [58489, 12806, 1721469, 23285, 11082] },
     "incomeData": { "total": 52165, "subPops": [37049, 85651, 52636, 46790, 40857] }
   },
   "55": {
-    "title": "Wisconsin",
+    "title": "WI",
     "popData": { "total": 5706871, "subPops": [355873, 132609, 4736069, 345866, 62872] },
     "incomeData": { "total": 66534, "subPops": [29942, 64964, 70602, 38078, 42600] }
   },
   "56": {
-    "title": "Wyoming",
+    "title": "WY",
     "popData": { "total": 570134, "subPops": [5167, 4782, 485654, 52454, 10449] },
     "incomeData": { "total": 70868, "subPops": [49271, 51750, 72967, 51546, 71569] }
   },

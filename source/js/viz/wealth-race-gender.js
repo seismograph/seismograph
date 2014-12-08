@@ -24,9 +24,9 @@ define(['wealth-race-gender-modules/buildWealthMap', 'wealth-race-gender-modules
 				specs = $.extend({}, defaults, options);
 
 			if (!specs.dataset) return false;
-			if (specs.cubeOptions) overviewBlocks(specs.dataset, specs.cubeOptions.elementID);
-			if (specs.mapOptions) buildWealthMap(specs.dataset, specs.mapOptions.elementID, specs.mapOptions.baseColor);
-			if (specs.cubeOptions) buildStateBar(specs.dataset, specs.barOptions.elementID);
+			if (specs.cubeOptions && $('#'+specs.cubeOptions.elementID).length > 0) overviewBlocks(specs.dataset, specs.cubeOptions.elementID);
+			if (specs.mapOptions && $('#'+specs.mapOptions.elementID).length > 0) buildWealthMap(specs.dataset, specs.mapOptions.elementID, specs.mapOptions.baseColor);
+			if (specs.cubeOptions && $('#'+specs.barOptions.elementID).length > 0) buildStateBar(specs.dataset, specs.barOptions.elementID);
 		},
 
 		race = function () {

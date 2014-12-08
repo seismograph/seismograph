@@ -9,6 +9,7 @@ tags: map, leaflet, wealth, race, gender, USA
 	<div class="canvas" id="county-wealth-map"></div>
 	<span id="county-wealth-map-bar"></span>
 </div>
-<div class="stateBar" id="state-bar-chart"></div>
 END_SUMMARY
+
+<div class="stateBar" id="state-bar-chart"></div>
 

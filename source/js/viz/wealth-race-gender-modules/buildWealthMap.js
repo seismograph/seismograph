@@ -172,7 +172,12 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 					.text(function (d) {
 						if (!dataObj[d.id]) return false;
 						var getPercent = function (val) {
-							return Math.round((val / dataObj[d.id].popData.total) * 100) + '%';
+							var percent = (val / dataObj[d.id].popData.total) * 100;
+							percent = percent.toFixed(2);
+							while (percent.charAt(percent.length - 1) === '0') {
+								percent = percent.slice(0, -1);
+							}
+							return (percent.charAt(percent.length - 1) === '.') ? percent.slice(0, -1) + '%' : percent + '%';
 						},
 						calculateOther = function () {
 							var totalPop = dataObj[d.id].popData.total,
@@ -183,11 +188,11 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 						};
 						return dataObj[d.id].title + '\n'
 							+ 'Population: ' + dataObj[d.id].popData.total
-							+ '\n - Black: ' + dataObj[d.id].popData.subPops[0]
-							+ '\n - Asian: ' + dataObj[d.id].popData.subPops[1]
-							+ '\n - White: ' + dataObj[d.id].popData.subPops[2]
-							+ '\n - Hispanic: ' + dataObj[d.id].popData.subPops[3]
-							+ '\n - Other: ' + dataObj[d.id].popData.subPops[4];
+							+ '\n - Black: ' + getPercent(dataObj[d.id].popData.subPops[0])
+							+ '\n - Asian: ' + getPercent(dataObj[d.id].popData.subPops[1])
+							+ '\n - White: ' + getPercent(dataObj[d.id].popData.subPops[2])
+							+ '\n - Hispanic: ' + getPercent(dataObj[d.id].popData.subPops[3])
+							+ '\n - Other: ' + getPercent(dataObj[d.id].popData.subPops[4]);
 					});
 			};
 

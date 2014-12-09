@@ -12,7 +12,7 @@ define(['d3', 'underscore'], function (d3, _) {
 		var buildLinearScale = function (viz) {
 			return d3.scale.linear()
 							.domain([0, viz.max])
-							.range([0, viz.h * 0.62]);
+							.range([0, viz.h * 0.52]);
 		};
 
 		var sortArrays = function (dataObj) {

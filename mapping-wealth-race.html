@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <title>Seismograph  - Mapping Wealth By Race in the US</title>
+    <title>Seismograph  - Racial Wealth Disparities in the US</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link href="css/style.css" type="text/css" rel="stylesheet">
     
@@ -25,17 +25,17 @@
     <div id="main" role="main">
       <article>
         
-          <h2>Mapping Wealth By Race in the US</h2>
+          <h2>Racial Wealth Disparities in the US</h2>
         
-        <p>These visualizations attempt to shed light on median wealth distribution in respect to race using data from the Census Bureau's 2013 5 year American Community Survey. More specifically, they're representations of income reported over the past 12 months by family households – including wage/salary income, interest, dividends, net rental income, income from estates and trusts, social security income and all other forms of reported income. What's intriguing about this data is that, though wage and salary gaps might be closing across the country, when we use combined assets as a metric for measuring wealth, some distinct racial discrepancies arise.</p>
+        <p><a href="http://www.pewresearch.org/fact-tank/2013/08/30/black-incomes-are-up-but-wealth-isnt/" target="_blank">Recent reports</a> show that, though US minority wages are on the rise, minority wealth isn't rising with them. To put this in perspective, the following visualizations use <a href="http://www.census.gov/data/developers/data-sets/acs-survey-5-year-data.html" target="_blank">2013 census data</a> to shed light on median wealth distribution in respect to race on the national, state and county level. Specifically, they visualize what the census defines as, <em>Total Wealth: the sum of the amounts reported separately for wage or salary income; net self-employment income; interest, dividends, or net rental or royalty income or income from estates and trusts; Social Security or Railroad Retirement income; Supplemental Security Income (SSI); public assistance or welfare payments; retirement, survivor, or disability pensions; and all other income</em>, in respect to family households.</p>
 
-<p><strong>National Wealth</strong><br />
-These cubes show wealth by race on a national level. The 'other' category includes Pacific Islanders, Native Americans and what the census calls, people of 'some other race'.</p>
+<p><strong>Wealth Across the US</strong><br />
+First, these cubes show median wealth by race on a national level. The 'other' category includes Pacific Islanders, Native Americans and what the census calls, people of 'some other race'.</p>
 
 <div class="nationalCubes external" id="wealth-race-gender"></div>
 
 <p><strong>Wealth by County</strong><br />
-This map visualizes wealth on the county level. Counties painted darker shades of green are wealthier in general. Roll over any county to specific wealth data. Also, take note, in some counties the sample sizes for individual races get pretty small, which can create some skewed perspectives.</p>
+This map visualizes median wealth by race on the county level. Counties painted darker shades of green have a higher median wealth for all races combined. Roll over any county to see specific wealth data on the bar chart. Also, take note, in some counties the sample sizes for individual races get pretty small, which can create some skewed perspectives.</p>
 
 <div class="mapWrap">
 	<div class="canvas" id="county-wealth-map"></div>
@@ -44,10 +44,11 @@ This map visualizes wealth on the county level. Counties painted darker shades o
 <p></p>
 
 <p><strong>Welath by State</strong><br />
-Finally, the following bar charts show wealth distribution by state in order of wealthiest state to poorest state and wealthiest race to poorest race.</p>
+Finally, the following bar charts show median wealth distribution by state in order of wealthiest state to poorest state and wealthiest race to poorest race.</p>
 
 <div class="stateBar" id="state-bar-chart"></div>
 
+<p>All of these visualizations are built using the <a href="d3js.org" target="_blank">D3</a> library and the map is rendered with the help of the <a href="http://leafletjs.com/" target="_blank">Leaflet</a> library using <a href="https://www.mapbox.com/" target="_blank">Mapbox</a> tiles.</p>
 
       </article>
     </div>

@@ -122,7 +122,7 @@ define(['d3', 'underscore'], function (d3, _) {
 
 		var buildLegend = function () {
 			var that = this,
-				top = 50,
+				top = 25,
 				length = 50;
 			this.svg.selectAll('g.legend')
 					.data(this.titles)

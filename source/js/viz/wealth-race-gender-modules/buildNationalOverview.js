@@ -101,7 +101,7 @@ define(['d3', 'underscore'], function (d3, _) {
 
 		var buildCubes = function () {
 			var that = this;
-			this.xBase = 140;
+			this.xBase = ($(window).width() > 1250) ? 140 : 70;
 			this.yBase = that.linearScale(d3.max(that.data.incomeData.subPops));
 
 			this.svg.selectAll('g.cubes')
@@ -159,7 +159,7 @@ define(['d3', 'underscore'], function (d3, _) {
 			sortArrays(dataObj);
 
 			var width = $('#' + elID).width(),
-				height = Math.round(width * 0.3),
+				height = ($(window).width() > 1499) ? Math.round(width * 0.3) : Math.round(width * 0.4),
 				viz = { 
 					svg: buildSvg(width, height),
 					data: dataObj['1'],

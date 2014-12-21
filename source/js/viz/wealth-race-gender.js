@@ -1,7 +1,7 @@
 define(['wealth-race-gender-modules/buildWealthMap', 'wealth-race-gender-modules/buildNationalOverview', 'wealth-race-gender-modules/buildStateBar'], function (buildWealthMap, overviewBlocks, buildStateBar) {
 	Object.byString = function(o, s) { // this is used to pass nested object keys around as parameters
-    s = s.replace(/\[(\w+)\]/g, '.$1'); // convert indexes to properties
-    s = s.replace(/^\./, '');           // strip a leading dot
+    s = s.replace(/\[(\w+)\]/g, '.$1');
+    s = s.replace(/^\./, '');           
     var a = s.split('.');
     while (a.length) {
         var n = a.shift();
@@ -14,7 +14,7 @@ define(['wealth-race-gender-modules/buildWealthMap', 'wealth-race-gender-modules
     return o;
 	}
 
-	var vizFactory = function (options) {
+	var vizFactory = function (options) { // B/c I hope to use this code/post-format for multiple datasets/visualizations, here's a factory...
 			var defaults = {
 					dataset: false,
 					mapOptions: false,
@@ -34,7 +34,7 @@ define(['wealth-race-gender-modules/buildWealthMap', 'wealth-race-gender-modules
 				dataset: 'race',
 				mapOptions: {
 					elementID: 'county-wealth-map',
-					baseColor: '#36862D'
+					baseColor: '#36862D' // The map will use as the median total wealth by county color (wealthier counties will be darker, poorer lighter)
 				},
 				cubeOptions: {
 					elementID: 'wealth-race-gender'

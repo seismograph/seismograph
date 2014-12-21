@@ -1,7 +1,7 @@
 define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/barChartFactory'], function (d3, _, L, mapFactory, barChartFactory) {
 	return function (dataset, elID, baseColor) {
 		var getBaseMap = function () {
-			var map = mapFactory({
+			var map = mapFactory({ // Pull up a leaflet map
 				id: elID,
 				center: [39.215, -96.789],
 				zoom: 5,
@@ -11,7 +11,7 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 			return map;
 		};
 
-		var findExtremes = function (data, maxOrMin, key) {
+		var findExtremes = function (data, maxOrMin, key) { // Will be used to find max and min for scales, etc.
 			var set = _.map(data, function (county) {
 				return Object.byString(county, key);
 			});
@@ -27,11 +27,11 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 			}
 		};
 
-		var buildOrdinalScale = function (domainArr, rangeArr) {
+		var buildOrdinalScale = function (domainArr, rangeArr) { // Currently using ordinal scale for county total wealth coloring
 			return d3.scale.ordinal().domain(domainArr).range(rangeArr);
 		};
 
-		var getBaseBarChart = function (map) {
+		var getBaseBarChart = function (map) { // Build a d3 base bar chart to be used for displaying county wealth
 			var chart = barChartFactory({
 				width: map.w * 0.36,
 				height: map.h * 0.6,
@@ -65,7 +65,7 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 					}
 				});
 
-			return setTimeout(function () {
+			return setTimeout(function () { // Using a timeout here so that data only reloads after user pauses on hover
 				bars.attr('height', function (d, i) {
 					if (pData[i] < 500) return 0;
 					return chart.scale(d);

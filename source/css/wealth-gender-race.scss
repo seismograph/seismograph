@@ -45,6 +45,7 @@ $other: #CC333F;
 			z-index: 1000;
 			background: white;
 			opacity: 0.7;
+			pointer-events: none;
 
 			.barChart {				
 				.Black { fill: $black; }

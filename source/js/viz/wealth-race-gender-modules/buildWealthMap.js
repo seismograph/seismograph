@@ -178,13 +178,6 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 								percent = percent.slice(0, -1);
 							}
 							return (percent.charAt(percent.length - 1) === '.') ? percent.slice(0, -1) + '%' : percent + '%';
-						},
-						calculateOther = function () {
-							var totalPop = dataObj[d.id].popData.total,
-							currTotal = _.reduce(dataObj[d.id].popData.subPops, function (m, c, k) {
-								return (k !== 4) ? m + c : m;
-							});
-							return Math.round(((totalPop - currTotal) / totalPop) * 100) + '%';
 						};
 						return dataObj[d.id].title + '\n'
 							+ 'Population: ' + dataObj[d.id].popData.total

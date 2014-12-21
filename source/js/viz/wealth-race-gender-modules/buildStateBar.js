@@ -138,7 +138,9 @@ define(['d3', 'underscore'], function (d3, _) {
 					y: that.yPos,
 					width: barSize,
 					height: 40
-				});
+				})
+				.append("title")
+					.text(obj.title);
 		};
 
 		var prepDataSet = function (dataObj, titles) {

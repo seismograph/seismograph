@@ -9,7 +9,7 @@ tags: map, leaflet, wealth, race, USA
 To put this in perspective, the following visualizations use <a href="http://www.census.gov/data/developers/data-sets/acs-survey-5-year-data.html" target="_blank">2013 census data</a> to shed light on median wealth distribution for families in respect to race on the national, state and county level. Specifically, they visualize what the census defines as, _Total Wealth: the sum of the amounts reported separately for wage or salary income; net self-employment income; interest, dividends, or net rental or royalty income or income from estates and trusts; Social Security or Railroad Retirement income; Supplemental Security Income (SSI); public assistance or welfare payments; retirement, survivor, or disability pensions; and all other income_.
 
 <strong>Wealth Across the US</strong><br />
-First, these cubes show median wealth by race on a national level. The 'other' category includes Pacific Islanders, Native Americans and what the census calls, people of 'some other race'.
+First, these rectangles show median wealth by race on a national level. The 'other' category includes Pacific Islanders, Native Americans and what the census calls, people of 'some other race'.
 
 <div class="nationalCubes external" id="wealth-race-gender"></div>
 

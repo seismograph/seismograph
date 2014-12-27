@@ -5,6 +5,8 @@ define(['leaflet', 'd3', './addUSLeafletOverlay'], function (L, d3, addUSLeaflet
 			height: null,
 			center: [37.545, -97.383],
 			zoom: 4,
+			minZoom: 0,
+			maxZoom: 19,
 			tile: 'http://{s}.tiles.mapbox.com/v3/lukewhyte.iho02bc8/{z}/{x}/{y}.png',
 			g: true
 		},
@@ -24,7 +26,12 @@ define(['leaflet', 'd3', './addUSLeafletOverlay'], function (L, d3, addUSLeaflet
 
 		buildMap: function (dimensions) { // Build map using leaflet
       this.canvas.style('height', dimensions.h+'px'); // Set the map height before instantiating it
-      return new L.Map(this.options.id, {center: this.options.center, zoom: this.options.zoom})
+      return new L.Map(this.options.id, {
+      			center: this.options.center, 
+      			zoom: this.options.zoom, 
+      			maxZoom: this.options.maxZoom,
+      			minZoom: this.options.minZoom
+      		})
           .addLayer(new L.TileLayer(this.options.tile));
     },
 

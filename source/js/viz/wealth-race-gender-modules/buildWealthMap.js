@@ -5,6 +5,8 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 				id: elID,
 				center: [39.215, -96.789],
 				zoom: 5,
+				minZoom: 3,
+				maxZoom: 9,
 				g: false
 			});
 			$('#'+elID).parent().height(map.h);
@@ -107,6 +109,9 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 
 				mapColor = d3.rgb(baseColor),
 
+				cornerNE = [77.542, 3.295],
+				cornerSW = [-18.312, -236.799]
+
 				totalIncomeDomain = (function () {
 					var max = findExtremes(dataObj, 'max', 'incomeData.total'),
 					min = findExtremes(dataObj, 'min', 'incomeData.total'),
@@ -194,6 +199,8 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 				county: 'path',
 				onReady: function () { map.reset(map.renderData); } // callback for onReady
 			});
+
+			map.view.setMaxBounds([cornerNE, cornerSW]);
 
 			map.view.on('viewreset', function () {
 				map.reset(map.renderData);

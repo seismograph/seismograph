@@ -39,7 +39,7 @@ define(['d3', 'underscore'], function (d3, _) {
 					});
 		};
 
-		var setRectAttr = function (g, d, i, className) {
+		var setRectAttr = function (g, d, i, className, depth, angle) {
 			var that = this;
 				rectSize = this.linearScale(d);
 			g.append('rect')
@@ -47,10 +47,10 @@ define(['d3', 'underscore'], function (d3, _) {
 					class: className + ' ' + this.titles[i],
 					x: function () {
 						that.xBase += (className === 'back') ? rectSize * 0.6 : 0;
-						return (className === 'back') ? that.xBase - rectSize : (that.xBase - rectSize) + 40;
+						return (className === 'back') ? that.xBase - rectSize : (that.xBase - rectSize) + depth;
 					},
 					y: function () {
-						that.yBase += 15;
+						that.yBase += (className === 'back') ? 20 : angle;
 						return that.yBase - rectSize;
 					},
 					width: rectSize,
@@ -58,35 +58,35 @@ define(['d3', 'underscore'], function (d3, _) {
 				});
 		};
 
-		var setPathPointMap = function (d, poly) {
+		var setPathPointMap = function (d, poly, depth, angle) {
 			var rectSize = this.linearScale(d);
 			switch (poly) {
 				case 'bottom': 
 					return [
 						{'x': this.xBase - rectSize, 'y': this.yBase}, {'x': this.xBase, 'y': this.yBase},
-						{'x': this.xBase + 40, 'y': this.yBase + 15}, {'x': (this.xBase - rectSize) + 40, 'y': this.yBase + 15}
+						{'x': this.xBase + depth, 'y': this.yBase + angle}, {'x': (this.xBase - rectSize) + depth, 'y': this.yBase + angle}
 					];
 				case 'right':
 					return [
 						{'x': this.xBase, 'y': this.yBase - rectSize}, {'x': this.xBase, 'y': this.yBase},
-						{'x': this.xBase + 40, 'y': this.yBase + 15}, {'x': this.xBase + 40, 'y': this.yBase + 15 - rectSize}
+						{'x': this.xBase + depth, 'y': this.yBase + angle}, {'x': this.xBase + depth, 'y': this.yBase + angle - rectSize}
 					];
 				case 'top':
 					return [
 						{'x': this.xBase - rectSize, 'y': this.yBase - rectSize}, {'x': this.xBase, 'y': this.yBase - rectSize},
-						{'x': this.xBase + 40, 'y': this.yBase + 15 - rectSize}, {'x': (this.xBase - rectSize) + 40, 'y': this.yBase + 15 - rectSize}
+						{'x': this.xBase + depth, 'y': this.yBase + angle - rectSize}, {'x': (this.xBase - rectSize) + depth, 'y': this.yBase + angle - rectSize}
 					];
 				case 'left':
 					return [
 						{'x': this.xBase - rectSize, 'y': this.yBase - rectSize}, {'x': this.xBase - rectSize, 'y': this.yBase},
-						{'x': this.xBase + 40 - rectSize, 'y': this.yBase + 15}, {'x': this.xBase + 40 - rectSize, 'y': this.yBase + 15 - rectSize}
+						{'x': this.xBase + depth - rectSize, 'y': this.yBase + angle}, {'x': this.xBase + depth - rectSize, 'y': this.yBase + angle - rectSize}
 					];
 			}
 		};
 
-		var setPathAttr = function (g, d, i, rect) {
+		var setPathAttr = function (g, d, i, rect, depth, angle) {
 			var that = this,
-				pointMap = this.setPathPointMap(d, rect),
+				pointMap = this.setPathPointMap(d, rect, depth, angle),
 				polyFunc = d3.svg.line()
 											.x(function (d) { return d.x; })
 											.y(function (d) { return d.y; })
@@ -100,7 +100,9 @@ define(['d3', 'underscore'], function (d3, _) {
 		};
 
 		var buildCubes = function () {
-			var that = this;
+			var that = this,
+				depth = 11,
+				angle = 5;
 			this.xBase = ($(window).width() > 1250) ? 140 : 70;
 			this.yBase = that.linearScale(d3.max(that.data.incomeData.subPops));
 
@@ -111,12 +113,12 @@ define(['d3', 'underscore'], function (d3, _) {
 					.attr('class', 'cubes')
 					.each(function (d, i) {
 						var g = d3.select(this);
-						that.setRectAttr(g, d, i, 'back');
-						that.setPathAttr(g, d, i, 'bottom');
-						that.setPathAttr(g, d, i, 'right');
-						that.setPathAttr(g, d, i, 'top');
-						that.setPathAttr(g, d, i, 'left');
-						that.setRectAttr(g, d, i, 'front');
+						that.setRectAttr(g, d, i, 'back', depth, angle);
+						that.setPathAttr(g, d, i, 'bottom', depth, angle);
+						that.setPathAttr(g, d, i, 'right', depth, angle);
+						that.setPathAttr(g, d, i, 'top', depth, angle);
+						that.setPathAttr(g, d, i, 'left', depth, angle);
+						that.setRectAttr(g, d, i, 'front', depth, angle);
 					});
 		};
 

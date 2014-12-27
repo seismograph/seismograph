@@ -12,7 +12,7 @@ define(['d3', 'underscore'], function (d3, _) {
 		var buildLinearScale = function (viz) {
 			return d3.scale.linear()
 							.domain([0, viz.max])
-							.range([0, viz.h * 0.5]);
+							.range([0, viz.h * 0.54]);
 		};
 
 		var sortArrays = function (dataObj) {
@@ -103,7 +103,7 @@ define(['d3', 'underscore'], function (d3, _) {
 			var that = this,
 				depth = 11,
 				angle = 5;
-			this.xBase = ($(window).width() > 1250) ? 140 : 70;
+			this.xBase = ($(window).width() > 1250) ? 140 : 80;
 			this.yBase = that.linearScale(d3.max(that.data.incomeData.subPops));
 
 			this.svg.selectAll('g.cubes')
@@ -161,7 +161,7 @@ define(['d3', 'underscore'], function (d3, _) {
 			sortArrays(dataObj);
 
 			var width = $('#' + elID).width(),
-				height = ($(window).width() > 1499) ? Math.round(width * 0.3) : Math.round(width * 0.4),
+				height = ($(window).width() > 1499) ? Math.round(width * 0.25) : Math.round(width * 0.35),
 				viz = { 
 					svg: buildSvg(width, height),
 					data: dataObj['1'],

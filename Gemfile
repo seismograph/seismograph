@@ -9,7 +9,7 @@ gem "middleman-blog", "~> 3.5.2"
 gem "builder", "~> 3.0"
 
 # middleman deploy plugin
-gem 'middleman-deploy', '~> 1.0'
+#gem 'middleman-deploy', '~> 1.0'
 
 # js files:
 #gem "js/d3", :require => false

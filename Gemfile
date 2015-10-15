@@ -8,8 +8,8 @@ gem "middleman-blog", "~> 3.5.2"
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
-# gh-pages plugin
-gem "middleman-gh-pages", :github => 'edgecase/middleman-gh-pages'
+# middleman deploy plugin
+gem 'middleman-deploy', '~> 1.0'
 
 # js files:
 #gem "js/d3", :require => false

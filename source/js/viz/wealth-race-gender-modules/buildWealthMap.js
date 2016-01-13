@@ -30,6 +30,7 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 		};
 
 		var buildOrdinalScale = function (domainArr, rangeArr) { // Currently using ordinal scale for county total wealth coloring
+			console.log(domainArr, rangeArr);
 			return d3.scale.ordinal().domain(domainArr).range(rangeArr);
 		};
 
@@ -119,9 +120,9 @@ define(['d3', 'underscore', 'leaflet', '../../tools/mapFactory', '../../tools/ba
 					return d3.range(min, max, step);
 				}());
 
-			map.setCountyFillOpacity = buildOrdinalScale(totalIncomeDomain, d3.range(0.5,1.1,0.1));
+			map.setCountyFillOpacity = buildOrdinalScale(totalIncomeDomain, d3.range(0.6,1.1,0.1));
 
-			map.setCountyColor = buildOrdinalScale(totalIncomeDomain, [mapColor.brighter(1.5), mapColor.brighter(1), mapColor.brighter(0.5), mapColor.darker(0.5), mapColor.darker(1), mapColor.darker(1.5)]);
+			map.setCountyColor = buildOrdinalScale(totalIncomeDomain, [mapColor.brighter(1), mapColor.brighter(0.5), mapColor, mapColor.darker(0.5), mapColor.darker(1)]);
 
 			map.bar = getBaseBarChart(map);
 
